@@ -1,0 +1,22 @@
+div.container {
+    width: 100%;
+    
+}
+
+div.col {
+    padding: 0;
+    color: #321F3F;
+    border: solid 2px #312040;
+}
+
+div.col-8  {
+    background-color: red;
+    padding: 0;
+ 
+}
+
+img.logo {
+    width: 100%;
+    margin: 0;
+    padding-right: 1.5px;
+}
