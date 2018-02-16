@@ -6,12 +6,17 @@ div.container {
 div.col {
     padding: 0;
     color: #321F3F;
-    border: solid 2px #312040;
+    border-bottom: solid 2px #312040;
+    border-left: solid 2px #312040;
+    border-right: solid 2px #312040;
 }
 
 div.col-8  {
-    background-color: red;
+    background-image: url('../Images/openDoor.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 0;
+    height: 100vh;
  
 }
 
@@ -19,4 +24,32 @@ img.logo {
     width: 100%;
     margin: 0;
     padding-right: 1.5px;
+    border: solid 2px #312040;
+}
+h4 {
+    border-bottom: solid 2px #312040;
+    border-left: solid 2px #312040;
+    border-right: solid 2px #312040;
+}
+h4.address {
+    padding-top: 10px;
+    padding-bottom: 10px;
+     
+    
+}
+
+.welcome {
+    font-size: 30vh;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    color: #B92D26;
+}
+h1.mission {
+    width: 38vw;
+    font-size: 5vh;
+    padding-left: 2vw;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-align: justify;
+
 }
