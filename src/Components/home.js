@@ -12,11 +12,36 @@ class Home extends Component {
                             <div className="col">
                                 <img className='logo' alt='church logo'src={Logo} />
                                 <h4 className='address'>4650 Cascade Road, Atlanta, Georgia 30331</h4>
-                                <h5>SUNDAY MORNING WORSHIP SERVICES</h5>
-                                <h6>8am and 11am</h6>
-                                <h5>WEDNESDAY BIBLE STUDY</h5>
-                                <h6>12:30pm and 7:00pm</h6>
+                                <div className='hours'>
+                                    <h5>SUNDAY MORNING WORSHIP SERVICES</h5>
+                                        <h6>8am and 11am</h6>
+                                    <h5>WEDNESDAY BIBLE STUDY</h5>
+                                        <h6>12:30pm and 7:00pm</h6>
+                                </div>
+                                
+                                 {/* navbar */}
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#">Active</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Link</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Link</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link disabled" href="#">Disabled</a>
+                                    </li>
+                                </ul>
+
+
                             </div>
+                            
+
+
+
+
                             <div className="col-8">
                                 <h1 className="welcome">Welcome</h1>
                                 <h1 className='mission'>Greater Turner Chapel African Methodist Episcopal Church seeks to be a people that abide in God's Love for ALL people. Empowering and Encouraging one another - Exalting God.</h1>
