@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Logo from '../Images/turner_logo.jpg'
-import './home.css'
+import './home.css';
+import Door from '../Images/openDoor.jpg';
 
 class Home extends Component {
     render() {
@@ -20,18 +21,18 @@ class Home extends Component {
                                 </div>
                                 
                                  {/* navbar */}
-                                <ul class="nav flex-column">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" href="#">Active</a>
+                                <ul className="nav flex-column">
+                                    <li className="nav-item">
+                                        <a className="nav-link active" href="#">HOME</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Link</a>
+                                    <li className="nav-item">
+                                        <a className="nav-link" href="#">ABOUT US</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Link</a>
+                                    <li className="nav-item">
+                                        <a className="nav-link" href="#">LEADERS</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link disabled" href="#">Disabled</a>
+                                    <li className="nav-item">
+                                        <a className="nav-link" href="#">CONTACT US</a>
                                     </li>
                                 </ul>
 
@@ -43,6 +44,7 @@ class Home extends Component {
 
 
                             <div className="col-8">
+                                <img className='door' alt='open door'src={Door} />
                                 <h1 className="welcome">Welcome</h1>
                                 <h1 className='mission'>Greater Turner Chapel African Methodist Episcopal Church seeks to be a people that abide in God's Love for ALL people. Empowering and Encouraging one another - Exalting God.</h1>
                                 
