@@ -49,8 +49,6 @@ h4.address {
     margin: 0;
     padding-top: 10px;
     padding-bottom: 10px;
-     
-    
 }
 
 .welcome {
@@ -77,8 +75,9 @@ h1.mission {
 
 }
 
-ul.nav.flex-column {
-
+li.nav-item:hover {
+    background-color: #B92D26;
+    color: #312040;
     
     
 }
@@ -86,3 +85,8 @@ a.nav-link {
     color: #312040;
     font-size: 25px;
 }
+
+a.nav-link:hover {
+    color: white;
+}
+

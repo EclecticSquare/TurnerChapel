@@ -26,10 +26,19 @@ class Home extends Component {
                                         <a className="nav-link active" href="#">HOME</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">ABOUT US</a>
+                                        <a className="nav-link" href="#">THE CHURCH</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">LEADERS</a>
+                                        <a className="nav-link" href="#">THE PASTOR</a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link" href="#">NEWS AND EVENTS</a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link" href="#">TITHE ONLINE</a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link" href="#">MINISTRIES</a>
                                     </li>
                                     <li className="nav-item">
                                         <a className="nav-link" href="#">CONTACT US</a>
