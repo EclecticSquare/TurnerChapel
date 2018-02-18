@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import MdIconPack from 'react-icons/lib/md'
-import {MdHome} from 'react-icons/lib/md';
+import {MdHome, MdLocationCity, MdPerson} from 'react-icons/lib/md';
+import FaIconPack from 'react-icons/lib/fa'
+import FaCalendar from 'react-icons/lib/fa/calendar'
+import FaGift from 'react-icons/lib/fa/gift'
 import Logo from '../Images/turner_logo.jpg'
 import './home.css';
 import Door from '../Images/openDoor.jpg';
@@ -29,16 +32,16 @@ class Home extends Component {
                                         <a className="nav-link active" href="#"><span className='houseIcon'><MdHome/></span>HOME</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">THE CHURCH</a>
+                                        <a className="nav-link" href="#"><span className='churchIcon'><MdLocationCity/></span>THE CHURCH</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">THE PASTOR</a>
+                                        <a className="nav-link" href="#"><span className='pastorIcon'><MdPerson/></span>THE PASTOR</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">NEWS AND EVENTS</a>
+                                        <a className="nav-link" href="#"><span className='calendarIcon'><FaCalendar/></span>NEWS AND EVENTS</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">TITHE ONLINE</a>
+                                        <a className="nav-link" href="#"><span className='giftIcon'><FaGift/></span>TITHE ONLINE</a>
                                     </li>
                                     <li className="nav-item">
                                         <a className="nav-link" href="#">MINISTRIES</a>

@@ -36,6 +36,7 @@ img.logo {
 
 img.door {
     height: 100vh;
+    width:100%;
     z-index: -1;
     opacity: 0.5;
 }
@@ -65,8 +66,8 @@ h4.address {
 h1.mission {
     position: absolute;
     z-index: 2;
-    bottom: 25vh;
-    width: 38vw;
+    bottom: 20vh;
+    width: 35vw;
     font-size: 5vh;
     padding-left: 2vw;
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
@@ -91,7 +92,7 @@ a.nav-link:hover {
     color: white;
 }
 
-span.houseIcon {
+span.houseIcon, span.churchIcon, span.pastorIcon, span.calendarIcon, span.giftIcon {
     font-size: 35px;
     margin-right: 100px;
     
