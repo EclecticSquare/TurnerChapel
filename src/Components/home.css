@@ -84,9 +84,16 @@ li.nav-item:hover {
 a.nav-link {
     color: #312040;
     font-size: 25px;
+    text-align: left;
 }
 
 a.nav-link:hover {
     color: white;
+}
+
+span.houseIcon {
+    font-size: 35px;
+    margin-right: 100px;
+    
 }
 

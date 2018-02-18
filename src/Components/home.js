@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import MdIconPack from 'react-icons/lib/md'
+import {MdHome} from 'react-icons/lib/md';
 import Logo from '../Images/turner_logo.jpg'
 import './home.css';
 import Door from '../Images/openDoor.jpg';
@@ -23,7 +25,8 @@ class Home extends Component {
                                  {/* navbar */}
                                 <ul className="nav flex-column">
                                     <li className="nav-item">
-                                        <a className="nav-link active" href="#">HOME</a>
+                                        
+                                        <a className="nav-link active" href="#"><span className='houseIcon'><MdHome/></span>HOME</a>
                                     </li>
                                     <li className="nav-item">
                                         <a className="nav-link" href="#">THE CHURCH</a>
