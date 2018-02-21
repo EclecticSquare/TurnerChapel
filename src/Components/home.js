@@ -34,10 +34,10 @@ class Home extends Component {
                                         <a className="nav-link active" href="#"><span className='houseIcon'><MdHome/></span>HOME</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#"><span className='churchIcon'><MdLocationCity/></span>THE CHURCH</a>
+                                        <a className="nav-link" href="#"><span className='churchIcon'><MdLocationCity/></span>OUR CHURCH</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#"><span className='pastorIcon'><MdPerson/></span>THE PASTOR</a>
+                                        <a className="nav-link" href="#"><span className='pastorIcon'><MdPerson/></span>OUR PASTOR</a>
                                     </li>
                                     <li className="nav-item">
                                         <a className="nav-link" href="#"><span className='calendarIcon'><FaCalendar/></span>NEWS AND EVENTS</a>
