@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import MdIconPack from 'react-icons/lib/md'
+import {Link} from 'react-router-dom';
 import {MdHome, MdLocationCity, MdPerson, MdFlare, MdPhoneInTalk} from 'react-icons/lib/md';
 import FaIconPack from 'react-icons/lib/fa'
 import FaCalendar from 'react-icons/lib/fa/calendar'
@@ -7,7 +8,7 @@ import FaGift from 'react-icons/lib/fa/gift'
 import FaTwitter from 'react-icons/lib/fa/twitter'
 import FaFacebook from 'react-icons/lib/fa/facebook'
 import Logo from '../Images/turner_logo.jpg'
-import './home.css';
+import '../css/home.css';
 import Door from '../Images/openDoor.jpg';
 
 class Home extends Component {
@@ -30,11 +31,10 @@ class Home extends Component {
                                  {/* navbar */}
                                 <ul className="nav flex-column">
                                     <li className="nav-item">
-                                        
-                                        <a className="nav-link active" href="#"><span className='houseIcon'><MdHome/></span>HOME</a>
+                                        <Link to='/home' className="nav-link active"><span className='houseIcon'><MdHome/></span>HOME</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#"><span className='churchIcon'><MdLocationCity/></span>OUR CHURCH</a>
+                                        <Link to='/church' className="nav-link"><span className='churchIcon'><MdLocationCity/></span>OUR CHURCH</Link>
                                     </li>
                                     <li className="nav-item">
                                         <a className="nav-link" href="#"><span className='pastorIcon'><MdPerson/></span>OUR PASTOR</a>
