@@ -95,6 +95,26 @@ a.nav-link:hover {
 span.houseIcon, span.churchIcon, span.pastorIcon, span.calendarIcon, span.giftIcon, span.ministryIcon, span.contactIcon {
     font-size: 35px;
     margin-right: 100px;
-    
+}
+
+div.follow {
+    position: absolute;
+    bottom: 3vh;
+    left: 30vw;
+    color: #B92D26;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+h1.followText {
+
+    margin-bottom: 0;
+    padding: 0;
+}
+
+div.followImages {
+    display: block;
+    margin: -25px;
 }
 
