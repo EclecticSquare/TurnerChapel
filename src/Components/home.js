@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import MdIconPack from 'react-icons/lib/md'
-import {MdHome, MdLocationCity, MdPerson} from 'react-icons/lib/md';
+import {MdHome, MdLocationCity, MdPerson, MdFlare, MdPhoneInTalk} from 'react-icons/lib/md';
 import FaIconPack from 'react-icons/lib/fa'
 import FaCalendar from 'react-icons/lib/fa/calendar'
 import FaGift from 'react-icons/lib/fa/gift'
@@ -44,10 +44,10 @@ class Home extends Component {
                                         <a className="nav-link" href="#"><span className='giftIcon'><FaGift/></span>TITHE ONLINE</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">MINISTRIES</a>
+                                        <a className="nav-link" href="#"><span className='ministryIcon'><MdFlare/></span>MINISTRIES</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">CONTACT US</a>
+                                        <a className="nav-link" href="#"><span className='contactIcon'><MdPhoneInTalk/></span>CONTACT US</a>
                                     </li>
                                 </ul>
 
