@@ -1,0 +1,29 @@
+a.nav-item.nav-link.list {
+    margin: auto 40px auto 40px;
+    color: #301F40;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+a.nav-item.nav-link.list:hover {
+    font-size: 30px;
+    color: #B72C25;
+}
+
+div.holder {
+    position: absolute;
+    top: 10vh;
+    background-color: #301F40;
+    height: 100%;
+    width: 100%;
+    color: lightgray;
+}
+
+h1.display-3.churchTitle {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+p {
+    font-size: 25px;
+    margin: 5vh 15vw auto 15vw;
+    text-align: justify;
+}
