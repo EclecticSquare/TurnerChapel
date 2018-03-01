@@ -23,9 +23,12 @@ class Church extends Component {
                     </div>
                 </nav>
 
-                <div className="container">
+                <div class='stackone'>
+                    <img src="http://lorempixum.com/200/200/city/7" />
+                </div>
+                <div className="container-fluid">
                     <div className="row">
-                        <div className='holder col-8'>
+                        <div className='holder'>
                             <h1 className='display-3 churchTitle'>Our Church</h1>
                                 <p className='paraText mb-0'>Maecenas orci ipsum, sagittis at elit sed, pellentesque ultricies erat. Ut blandit eleifend elit quis elementum. Suspendisse id laoreet tellus. Maecenas enim leo, aliquet nec diam non, posuere pulvinar felis. Integer et diam non dui facilisis finibus nec sit amet tellus. Sed convallis risus nec tortor eleifend lacinia. Phasellus tempor congue dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis vehicula urna, at suscipit nibh. Aenean faucibus, ante nec semper tempus, libero mi tristique augue, ut vulputate elit nibh a est. Nullam quis efficitur mi. <br/>
                                 Integer pharetra justo ante, nec sodales erat dictum et. Fusce vestibulum aliquam libero, eget eleifend arcu tristique efficitur. Nulla justo diam, semper sit amet turpis ac, tempus fermentum metus. Ut non ornare felis. In imperdiet erat urna, a ullamcorper ligula fringilla a. Aliquam erat volutpat. Quisque risus metus, volutpat nec sodales vel, ultricies vitae ligula. Nunc eu metus rutrum, porta mauris ac, dignissim orci. Praesent sed pellentesque nisi. Phasellus viverra gravida mi, sit amet dapibus elit rhoncus vel. Quisque sed viverra justo. Aenean nisl ligula, luctus eleifend laoreet nec, molestie at ipsum. Donec nulla justo, ultrices eget vulputate vel, finibus vel enim. Pellentesque quis magna eu elit lacinia imperdiet.<br/>
@@ -33,7 +36,6 @@ class Church extends Component {
                                 Fusce facilisis arcu urna, sed dignissim ligula rutrum sit amet. Vivamus sagittis magna vitae risus imperdiet aliquam. Sed pretium augue lorem, eget dictum velit finibus aliquet. Proin egestas odio eu massa feugiat, in eleifend metus sollicitudin. Morbi lacinia fringilla elit nec consequat. Sed libero ligula, hendrerit at sagittis rhoncus, volutpat eu arcu. Proin eget orci quis nibh tincidunt pulvinar ut a augue. Nulla sit amet mattis ligula. Aenean fringilla auctor nulla vitae pulvinar. Vivamus dolor turpis, molestie eget diam eu, malesuada pulvinar urna. Pellentesque scelerisque diam a feugiat laoreet. Proin vulputate viverra lacus sit amet viverra. Nunc efficitur mi vitae urna vehicula fermentum. Morbi a diam diam. Vivamus fringilla, ex a convallis porttitor, diam risus egestas odio, vitae maximus nulla tellus at urna. Fusce at tempus enim.<br/>
                                 Vivamus scelerisque laoreet eros, vitae dignissim lectus vehicula id. Sed quis fringilla dolor, ut luctus nibh. Praesent non massa consequat, accumsan tortor sed, lobortis enim. Duis sit amet nunc vitae turpis tincidunt volutpat. Donec sollicitudin rutrum odio sed eleifend. Integer placerat condimentum accumsan. Nunc et maximus ipsum. Praesent tempor vulputate massa, at porttitor dui porta vulputate. Maecenas bibendum luctus quam ut dictum. Suspendisse potenti.</p>
                         </div>
-                        <div className="col-4"></div>
                     </div>
                 </div>
             </div>
