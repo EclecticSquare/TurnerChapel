@@ -23,9 +23,7 @@ class Church extends Component {
                     </div>
                 </nav>
 
-                <div class='stackone'>
-                    <img src="http://lorempixum.com/200/200/city/7" />
-                </div>
+            
                 <div className="container-fluid">
                     <div className="row">
                         <div className='holder'>
