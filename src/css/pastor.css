@@ -1,3 +1,36 @@
-.introImage {
-    background-image: url('../Images/')
+a.nav-item.nav-link.list {
+    margin: auto 40px auto 40px;
+    color: #301F40;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+a.nav-item.nav-link.list:hover {
+    font-size: 30px;
+    color: #B72C25;
+}
+
+div.holder {
+    position: absolute;
+    top: 10vh;
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 100%;
+    color: lightgray;
+}
+
+img.pastorImage {
+    width: 50vw;
+}
+
+h1.display-3.pastorTitle {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+p {
+    font-size: 25px;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    text-align: justify;
+    background-color: antiquewhite;
+    width: 100%;
 }
