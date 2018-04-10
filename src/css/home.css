@@ -55,7 +55,7 @@ h4.address {
 .welcome {
     position: absolute;
     opacity: 0;
-    z-index: 2;
+    z-index: 5;
     top: 2vh;
     font-size: 17vw;
     margin: 0 auto 0 auto;

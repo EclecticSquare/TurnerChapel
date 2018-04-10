@@ -4,15 +4,83 @@ body, div.container-fluid, div.col-3, .row {
 }
 
 img.mainImage {
+    position: absolute;
     height:75vh;
-    animation: mainImageZoom 5s;
-    animation-delay: 8s;
-}
- img {
+    width:100%;
+    top: 0; left: 0;
+    z-index: 3;
+    -webkit-animation: slideshow 12s linear 0s infinite;
+    -moz-animation: slideshow 12s linear 0s infinite;
+    -ms-animation: slideshow 12s linear 0s infinite;
+    -o-animation: slideshow 12s linear 0s infinite;
+    animation: slideshow 12s linear 0s infinite;
+  }
+  
+  img.mainImage:nth-child(2) {
+    z-index: 2;
+    -webkit-animation: slideshow 12s linear 4s infinite;
+    -moz-animation: slideshow 12s linear 4s infinite;
+    -ms-animation: slideshow 12s linear 4s infinite;
+    -o-animation: slideshow 12s linear 4s infinite;
+    animation: slideshow 12s linear 4s infinite;
+  }
+  
+  img.mainImage:nth-child(3) {
+     z-index: 1;
+    -webkit-animation: slideshow 12s linear 8s infinite;
+    -moz-animation: slideshow 12s linear 8s infinite;
+    -ms-animation: slideshow 12s linear 8s infinite;
+    -o-animation: slideshow 12s linear 8s infinite;
+    animation: slideshow 12s linear 8s infinite;
+  }
+  
+  @-webkit-keyframes slideshow {
+     25% { opacity: 1;}
+     33.33% { opacity: 0;} 
+     91.66% { opacity: 0;}
+     100% { opacity: 1;}
+  }
+  @-moz-keyframes slideshow {
+     25% { opacity: 1;}
+     33.33% { opacity: 0;} 
+     91.66% { opacity: 0;}
+     100% { opacity: 1;}
+  }
+  @-ms-keyframes slideshow {
+     25% { opacity: 1;}
+     33.33% { opacity: 0;} 
+     91.66% { opacity: 0;}
+     100% { opacity: 1;}
+  }
+  @-o-keyframes slideshow {
+     25% { opacity: 1;}
+     33.33% { opacity: 0;} 
+     91.66% { opacity: 0;}
+     100% { opacity: 1;}
+  }
+  @keyframes slideshow {
+     25% { opacity: 1;}
+     33.33% { opacity: 0;} 
+     91.66% { opacity: 0;}
+     100% { opacity: 1;}
+  }
+  
+  div.bottom.container-fluid {
+    position: absolute;
+    margin: 0;
+    padding:0;
+    bottom: 0;
+  }
+
+  img.slideImage {
+     display: block;
      height: 25vh;
      width: 100%;
-     margin: 0;
-     padding:0;
+     
+ }
+
+ img.slideImage {
+     
  }
 
  @keyframes mainImageZoom {
@@ -22,8 +90,4 @@ img.mainImage {
   100%    {transform:scale(1.75);} 
 }
 
-#myDiv {
-    -webkit-transform: rotateY(150deg); /* Safari */
-    transform: rotateY(150deg); /* Standard syntax */
-}
 

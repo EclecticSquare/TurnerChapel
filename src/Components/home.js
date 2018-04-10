@@ -68,8 +68,10 @@ class Home extends Component {
 
                             <div className="col-10">
                                 <Slideshow/>
-                                {/* <img className='door' alt='open door'src={Door} /> */}
                                 <h1 className="welcome">Welcome</h1>
+                                
+                                {/* <img className='door' alt='open door'src={Door} /> */}
+                                
                                 {/* <h1 className='mission'>Greater Turner Chapel African Methodist Episcopal Church seeks to be a people that abide in God's Love for ALL people. Empowering and Encouraging one another - Exalting God.</h1> */}
                                 {/* <div className='follow'>
                                     <h1 className='followText'>Follow Us</h1>

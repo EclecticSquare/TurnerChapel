@@ -9,67 +9,37 @@ import Image6 from '../Images/1.jpg'
 //this is a component as a function
 const slideshow = (props) => {
     return (
-        <div className='slideContainer'>
-            
-            <div id="container">
-                <div id="slideshow">
+        <div className=''>
+            <div id='slideshowContainer'>
+                <div id='slideshow'>
+                    <img className='mainImage' src={Image1}/>
+                    <img  className='mainImage' src={Image5}/>
+                    <img  className='mainImage' src={Image3}/>
                 </div>
-            </div> 
-            
-            
-            
-            
-            
-            
-            <div className='mg-image'>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li> 
-                </ul>
-                
-                {/* <img className='mainImage' src={Image5}/> */}
             </div>
-
-           
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <div className='container-fluid'>
+            
+            <div className='bottom container-fluid'>
                 <div className='row'>
-                    <div className='col-3 slideImage'>
-                        <img  src={Image1}/>
+                    <div className='col-3 '>
+                        <img  className='slideImage' src={Image1}/>
                     </div>
                     
-                    <div className='col-3 slideImage'>
-                        <img  src={Image2}/>
+                    <div className='col-3 '>
+                        <img  className='slideImage' src={Image2}/>
                     </div>
 
-                    <div className='col-3 slideImage'>
-                        <img   src={Image3}/>
+                    <div className='col-3  '>
+                        <img className='slideImage'  src={Image3}/>
                     </div>
 
-                    <div className='col-3 slideImage'>
-                        <img   src={Image4}/>
+                    <div className='col-3  '>
+                        <img  className='slideImage' src={Image4}/>
                     </div>
-
-                    {/* <img src={Image5}/>
-                    <img src={Image6}/> */}
+ 
                 </div>
             </div>
-
-
+            
+            
 
         </div>
     )
