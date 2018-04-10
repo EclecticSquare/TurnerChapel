@@ -10,6 +10,7 @@ import FaFacebook from 'react-icons/lib/fa/facebook'
 import Logo from '../Images/turner_logo.jpg'
 import '../css/home.css';
 import Door from '../Images/openDoor.jpg';
+import Slideshow from '../Components/slideshow'
 
 class Home extends Component {
     render() {
@@ -18,8 +19,9 @@ class Home extends Component {
 
                     <div className="container-fluid">
                         <div className="row">
-                            <div className="col">
+                            <div className="col-2">
                                 <img className='logo' alt='church logo'src={Logo} />
+                                <h5 className='mission'>Greater Turner Chapel African Methodist Episcopal Church seeks to be a people that abide in God's Love for ALL people. Empowering and Encouraging one another - Exalting God.</h5>
                                 <h4 className='address'>4650 Cascade Road, Atlanta, Georgia 30331</h4>
                                 <div className='hours'>
                                     <h5>SUNDAY MORNING WORSHIP SERVICES</h5>
@@ -31,7 +33,7 @@ class Home extends Component {
                                  {/* navbar */}
                                 <ul className="nav flex-column">
                                     <li className="nav-item">
-                                        <Link to='/home' className="nav-link active"><span className='houseIcon'><MdHome/></span>HOME</Link>
+                                        <span className='houseIcon'><MdHome/></span><Link to='/home' className="nav-link active">HOME</Link>
                                     </li>
                                     <li className="nav-item">
                                         <Link to='/church' className="nav-link"><span className='churchIcon'><MdLocationCity/></span>OUR CHURCH</Link>
@@ -53,6 +55,10 @@ class Home extends Component {
                                     </li>
                                 </ul>
 
+                                <div className='follow'>
+                                    <h1 className='followText'>Follow Us</h1>
+                                    <div className='followImages'> <span><FaTwitter/></span>  <span><FaFacebook/></span>   </div>
+                                </div>
 
                             </div>
                             
@@ -60,14 +66,15 @@ class Home extends Component {
 
 
 
-                            <div className="col-8">
-                                <img className='door' alt='open door'src={Door} />
+                            <div className="col-10">
+                                <Slideshow/>
+                                {/* <img className='door' alt='open door'src={Door} /> */}
                                 <h1 className="welcome">Welcome</h1>
-                                <h1 className='mission'>Greater Turner Chapel African Methodist Episcopal Church seeks to be a people that abide in God's Love for ALL people. Empowering and Encouraging one another - Exalting God.</h1>
-                                <div className='follow'>
+                                {/* <h1 className='mission'>Greater Turner Chapel African Methodist Episcopal Church seeks to be a people that abide in God's Love for ALL people. Empowering and Encouraging one another - Exalting God.</h1> */}
+                                {/* <div className='follow'>
                                     <h1 className='followText'>Follow Us</h1>
                                     <div className='followImages'> <span><FaTwitter/></span>  <span><FaFacebook/></span>   </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

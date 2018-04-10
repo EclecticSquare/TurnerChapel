@@ -26,7 +26,7 @@ h1.display-3.pastorTitle {
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 }
 
-p {
+p.pastorInfo {
     font-size: 25px;
     padding-left: 15vw;
     padding-right: 15vw;

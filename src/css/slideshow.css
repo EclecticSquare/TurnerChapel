@@ -1,0 +1,24 @@
+body, div.container-fluid, div.col-3, .row {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+img.mainImage {
+    height:75vh;
+    animation: mainImageZoom 5s;
+    animation-delay: 8s;
+}
+ img {
+     height: 25vh;
+     width: 100%;
+     margin: 0;
+     padding:0;
+ }
+
+ @keyframes mainImageZoom {
+    0%   {}
+    25% {transform:scale(1.25);}
+    50%   {transform:scale(1.5);}
+  100%    {transform:scale(1.75);} 
+}
+

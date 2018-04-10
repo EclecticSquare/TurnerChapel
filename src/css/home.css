@@ -3,35 +3,37 @@ div.container {
     
 }
 
-div.col {
+div.col-2 {
     padding: 0;
     color: #321F3F;
-    border-bottom: solid 2px #312040;
+    /* border-bottom: solid 2px #312040;
     border-left: solid 2px #312040;
-    border-right: solid 2px #312040;
+    border-right: solid 2px #312040; */
 }
 div.hours {
     padding: 0;
     margin: 0;
     color: white;
     background-color: #321F3F;
-    border-bottom: solid 2px #312040;
+    /* border-bottom: solid 2px #312040;
     border-left: solid 2px #312040;
-    border-right: solid 2px #312040;
+    border-right: solid 2px #312040; */
 }
 
 
-div.col-8  {
+div.col-10  {
     padding: 0;
     height: 100vh;
  
 }
 
 img.logo {
+    height: 20vh;
     width: 100%;
     margin: 0;
-    padding-right: 1.5px;
-    border: solid 2px #312040;
+    padding: 0 3px 0 0;
+    /* padding-right: 1.5px; */
+    border-bottom: solid 2px #312040;
 }
 
 img.door {
@@ -41,11 +43,9 @@ img.door {
     opacity: 0.5;
 }
 h4 {
-  
-    border-bottom: solid 2px #312040;
-    border-left: solid 2px #312040;
-    border-right: solid 2px #312040;
+    border-top: solid 2px #312040;
 }
+
 h4.address {
     margin: 0;
     padding-top: 10px;
@@ -54,26 +54,25 @@ h4.address {
 
 .welcome {
     position: absolute;
+    opacity: 0;
     z-index: 2;
     top: 2vh;
     font-size: 17vw;
     margin: 0 auto 0 auto;
-    padding: 0;
+    padding: 10vw;
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     color: #B92D26;
+    -webkit-animation: landing 10s; /* Safari 4+ */
+    -moz-animation:    landing 10s; /* Fx 5+ */
+    -o-animation:      landing 10s; /* Opera 12+ */
+    animation:         landing 10s; /* IE 10+, Fx 29+ */
 }
 
-h1.mission {
-    position: absolute;
-    z-index: 2;
-    bottom: 20vh;
-    width: 35vw;
-    font-size: 5vh;
-    padding-left: 2vw;
-    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-    text-align: justify;
-    color: white;
-
+h5.mission {
+    color: #312040;
+    text-align: left;
+    margin: 0 0 5px 10px;
+    font-size: -2.5em;
 }
 
 li.nav-item:hover {
@@ -84,23 +83,27 @@ li.nav-item:hover {
 }
 a.nav-link {
     color: #312040;
-    font-size: 25px;
-    text-align: left;
+    font-size: 20px;
+    float: left;
+    padding:0;
+    display: inline-block;
 }
 
 a.nav-link:hover {
     color: white;
+    text-align: left;
 }
 
 span.houseIcon, span.churchIcon, span.pastorIcon, span.calendarIcon, span.giftIcon, span.ministryIcon, span.contactIcon {
     font-size: 35px;
-    margin-right: 100px;
+    margin-right: 15px;
+    margin-top: -15px;
+    float: left;
 }
 
 div.follow {
-    position: absolute;
+    padding-top: 5vh;
     bottom: 3vh;
-    left: 30vw;
     color: #B92D26;
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     text-align: center;
@@ -108,7 +111,6 @@ div.follow {
 }
 
 h1.followText {
-
     margin-bottom: 0;
     padding: 0;
 }
@@ -117,4 +119,12 @@ div.followImages {
     display: block;
     margin: -25px;
 }
+
+@keyframes landing {
+    0%   {opacity: 0;}
+    50%   { opacity: 1; font-size: 35vh;}
+  100%    { opacity: 0;} 
+}
+
+
 

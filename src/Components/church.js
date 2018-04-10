@@ -13,7 +13,7 @@ class Church extends Component {
                     </a>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
-                        <a className="nav-item nav-link list" href="#">Home <span className="sr-only">(current)</span></a>
+                        <a className="first nav-item nav-link list" href="#">Home <span className="sr-only">(current)</span></a>
                         <a className="nav-item nav-link list" href="#">Our Pastor</a>
                         <a className="nav-item nav-link list" href="#">News and Events</a>
                         <a className="nav-item nav-link list" href="#">Tithes and Offerings</a>
