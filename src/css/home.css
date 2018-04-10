@@ -59,7 +59,7 @@ h4.address {
     top: 2vh;
     font-size: 17vw;
     margin: 0 auto 0 auto;
-    padding: 10vw;
+    padding: 3vw;
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     color: #B92D26;
     -webkit-animation: landing 10s; /* Safari 4+ */
@@ -125,6 +125,7 @@ div.followImages {
     50%   { opacity: 1; font-size: 35vh;}
   100%    { opacity: 0;} 
 }
+
 
 
 

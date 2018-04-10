@@ -10,9 +10,42 @@ import Image6 from '../Images/1.jpg'
 const slideshow = (props) => {
     return (
         <div className='slideContainer'>
+            
+            <div id="container">
+                <div id="slideshow">
+                </div>
+            </div> 
+            
+            
+            
+            
+            
+            
             <div className='mg-image'>
-                <img className='mainImage' src={Image5}/>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li> 
+                </ul>
+                
+                {/* <img className='mainImage' src={Image5}/> */}
             </div>
+
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <div className='container-fluid'>
                 <div className='row'>
                     <div className='col-3 slideImage'>
