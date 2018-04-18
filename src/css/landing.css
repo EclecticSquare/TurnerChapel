@@ -9,20 +9,29 @@ img.landingImage {
     width:100vw;
     top: 0; left: 0;
     z-index: 4;
-    -webkit-animation: landingSlideshow 15s linear 0s infinite;
-    -moz-animation: landingSlideshow 15s linear 0s infinite;
-    -ms-animation: landingSlideshow 15s linear 0s infinite;
-    -o-animation: landingSlideshow 15s linear 0s infinite;
-    animation: landingSlideshow 15s linear 0s infinite;
+    -webkit-animation: landingSlideshow 15s linear 0s infinite,
+                    imageZoom 5s linear infinite;
+
+    -moz-animation: landingSlideshow 15s linear 0s infinite,
+                     imageZoom 5s linear infinite;
+
+    -ms-animation: landingSlideshow 15s linear 0s infinite,
+                     imageZoom 5s linear infinite;
+
+    -o-animation: landingSlideshow 15s linear 0s infinite,
+                     imageZoom 5s linear infinite;
+
+    animation: landingSlideshow 15s linear 0s infinite,
+                imageZoom 5s linear infinite;
   }
   
   img.landingImage:nth-child(2) {
     z-index: 3;
-    -webkit-animation: landingSlideshow 15s linear 5s infinite;
-    -moz-animation: landingSlideshow 15s linear 5s infinite;
-    -ms-animation: landingSlideshow 15s linear 5s infinite;
-    -o-animation: landingSlideshow 15s linear 5s infinite;
-    animation: landingSlideshow 15s linear 5s infinite;
+    -webkit-animation: landingSlideshow 15s linear 5s infinite, imageZoom 10s linear infinite;
+    -moz-animation: landingSlideshow 15s linear 5s infinite, imageZoom 10s linear infinite;
+    -ms-animation: landingSlideshow 15s linear 5s infinite, imageZoom 10s linear infinite;
+    -o-animation: landingSlideshow 15s linear 5s infinite, imageZoom 10s linear infinite;
+    animation: landingSlideshow 15s linear 5s infinite, imageZoom 10s linear infinite;
   }
   
   img.landingImage:nth-child(3) {
@@ -35,8 +44,8 @@ img.landingImage {
   }
 
   @-webkit-keyframes landingSlideshow {
-    25% { opacity: 1;}
-    33.33% { opacity: 0;} 
+    25% { opacity: 1; }
+    33.33% { opacity: 0; } 
     91.66% { opacity: 0;}
     100% { opacity: 1;}
  }
@@ -63,4 +72,37 @@ img.landingImage {
     33.33% { opacity: 0;} 
     91.66% { opacity: 0;}
     100% { opacity: 1;}
+ }
+
+
+
+ @-webkit-keyframes imageZoom {
+    25% { transform: scale(1.2) }
+    50% { transform: scale(1.3) }
+    75% { transform: scale(1.4) }
+    100% { transform: scale(1.5) }
+ }
+ @-moz-keyframes imageZoom {
+    25% { transform: scale(1.2) }
+    50% { transform: scale(1.3) }
+    75% { transform: scale(1.4) }
+    100% { transform: scale(1.5) }
+ }
+ @-ms-keyframes imageZoom {
+    25% { transform: scale(1.2) }
+    50% { transform: scale(1.3) }
+    75% { transform: scale(1.4) }
+    100% { transform: scale(1.5) }
+ }
+ @-o-keyframes imageZoom {
+    25% { transform: scale(1.2) }
+    50% { transform: scale(1.3) }
+    75% { transform: scale(1.4) }
+    100% { transform: scale(1.5) }
+ }
+ @keyframes imageZoom {
+    25% { transform: scale(1.2) }
+    50% { transform: scale(1.3) }
+    75% { transform: scale(1.4) }
+    100% { transform: scale(1.5) }
  }
