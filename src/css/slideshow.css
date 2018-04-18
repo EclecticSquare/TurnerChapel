@@ -9,48 +9,48 @@ img.mainImage {
     width:100%;
     top: 0; left: 0;
     z-index: 4;
-    -webkit-animation: slideshow 12s linear 0s infinite;
-    -moz-animation: slideshow 12s linear 0s infinite;
-    -ms-animation: slideshow 12s linear 0s infinite;
-    -o-animation: slideshow 12s linear 0s infinite;
-    animation: slideshow 12s linear 0s infinite;
+    -webkit-animation: slideshow 20s linear 0s infinite;
+    -moz-animation: slideshow 20s linear 0s infinite;
+    -ms-animation: slideshow 20s linear 0s infinite;
+    -o-animation: slideshow 20s linear 0s infinite;
+    animation: slideshow 20s linear 0s infinite;
   }
   
   img.mainImage:nth-child(2) {
     z-index: 3;
-    -webkit-animation: slideshow 12s linear 8s infinite;
-    -moz-animation: slideshow 12s linear 8s infinite;
-    -ms-animation: slideshow 12s linear 8s infinite;
-    -o-animation: slideshow 12s linear 8s infinite;
-    animation: slideshow 12s linear 8s infinite;
+    -webkit-animation: slideshow 20s linear 4s infinite;
+    -moz-animation: slideshow 20s linear 4s infinite;
+    -ms-animation: slideshow 20s linear 4s infinite;
+    -o-animation: slideshow 20s linear 4s infinite;
+    animation: slideshow 20s linear 4s infinite;
   }
   
   img.mainImage:nth-child(3) {
      z-index: 2;
-    -webkit-animation: slideshow 12s linear 16s infinite;
-    -moz-animation: slideshow 12s linear 16s infinite;
-    -ms-animation: slideshow 12s linear 16s infinite;
-    -o-animation: slideshow 12s linear 16s infinite;
-    animation: slideshow 12s linear 16s infinite;
+    -webkit-animation: slideshow 20s linear 8s infinite;
+    -moz-animation: slideshow 20s linear 8s infinite;
+    -ms-animation: slideshow 20s linear 8s infinite;
+    -o-animation: slideshow 20s linear 8s infinite;
+    animation: slideshow 20s linear 8s infinite;
   }
   
   img.mainImage:nth-child(4) {
     z-index: 1;
-   -webkit-animation: slideshow 12s linear 36s infinite;
-   -moz-animation: slideshow 12s linear 36s infinite;
-   -ms-animation: slideshow 12s linear 36s infinite;
-   -o-animation: slideshow 12s linear 36s infinite;
-   animation: slideshow 12s linear 36s infinite;
+   -webkit-animation: slideshow 20s linear 12s infinite;
+   -moz-animation: slideshow 20s linear 12s infinite;
+   -ms-animation: slideshow 20s linear 12s infinite;
+   -o-animation: slideshow 20s linear 12s infinite;
+   animation: slideshow 20s linear 12s infinite;
  }
 
- /* img.mainImage:nth-child(5) {
+ img.mainImage:nth-child(5) {
     z-index: 1;
-   -webkit-animation: slideshow 12s linear 16s infinite;
-   -moz-animation: slideshow 12s linear 16s infinite;
-   -ms-animation: slideshow 12s linear 16s infinite;
-   -o-animation: slideshow 12s linear 16s infinite;
-   animation: slideshow 12s linear 16s infinite;
- } */
+   -webkit-animation: slideshow 20s linear 16s infinite;
+   -moz-animation: slideshow 20s linear 16s infinite;
+   -ms-animation: slideshow 20s linear 16s infinite;
+   -o-animation: slideshow 20s linear 16s infinite;
+   animation: slideshow 20s linear 16s infinite;
+ }
   @-webkit-keyframes slideshow {
      25% { opacity: 1;}
      33.33% { opacity: 0;} 
