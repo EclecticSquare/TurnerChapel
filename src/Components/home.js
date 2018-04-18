@@ -9,15 +9,18 @@ import FaTwitter from 'react-icons/lib/fa/twitter'
 import FaFacebook from 'react-icons/lib/fa/facebook'
 import Logo from '../Images/turner_logo.jpg'
 import '../css/home.css';
-import Door from '../Images/openDoor.jpg';
+import Landing from '../Components/landing'
+// import Menu from '../Components/menu'
 import Slideshow from '../Components/slideshow'
 
 class Home extends Component {
     render() {
         return(
             <div className=''>
+                <Landing/>
+                
 
-                    <div className="container-fluid">
+                    {/* <div className="container-fluid">
                         <div className="row">
                             <div className="col-2">
                                 <img className='logo' alt='church logo'src={Logo} />
@@ -28,10 +31,10 @@ class Home extends Component {
                                         <h6>8am and 11am</h6>
                                     <h5>WEDNESDAY BIBLE STUDY</h5>
                                         <h6>12:30pm and 7:00pm</h6>
-                                </div>
+                                </div> */}
                                 
                                  {/* navbar */}
-                                <ul className="nav flex-column">
+                                {/* <ul className="nav flex-column">
                                     <li className="nav-item">
                                         <span className='houseIcon'><MdHome/></span><Link to='/home' className="nav-link active">HOME</Link>
                                     </li>
@@ -58,17 +61,17 @@ class Home extends Component {
                                 <div className='follow'>
                                     <h1 className='followText'>Follow Us</h1>
                                     <div className='followImages'> <span><FaTwitter/></span>  <span><FaFacebook/></span>   </div>
-                                </div>
+                                </div> */}
 
-                            </div>
+                            {/* </div> */}
                             
 
 
 
 
-                            <div className="col-10">
+                            {/* <div className="col-10">
                                 <Slideshow/>
-                                <h1 className="welcome">Welcome</h1>
+                                <h1 className="welcome">Welcome</h1> */}
                                 
                                 {/* <img className='door' alt='open door'src={Door} /> */}
                                 
@@ -77,9 +80,9 @@ class Home extends Component {
                                     <h1 className='followText'>Follow Us</h1>
                                     <div className='followImages'> <span><FaTwitter/></span>  <span><FaFacebook/></span>   </div>
                                 </div> */}
-                            </div>
+                            {/* </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     
 
