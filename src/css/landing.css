@@ -2,6 +2,49 @@
     margin: 0;
     padding: 0;
 }
+h1.landingWelcome {
+    z-index: 7;
+    position: absolute;
+    font-size: 8vh;
+    font-family: cursive;
+    color: antiquewhite;
+    bottom: 15vh;
+    right: 8vw;
+    margin: 0;
+    padding: 0;
+    -webkit-animation: landingSlideshow 15s linear 0s,
+    imageZoom 5s linear;
+
+    -moz-animation: landingSlideshow 15s linear 0s,
+        imageZoom 5s linear ;
+
+    -ms-animation: landingSlideshow 15s linear 0s,
+        imageZoom 5s linear ;
+
+    -o-animation: landingSlideshow 15s linear 0s,
+        imageZoom 5s linear ;
+
+    animation: landingSlideshow 15s linear 0s,
+    imageZoom 5s linear ;
+}
+
+h1.landingFamily {
+    z-index: 4;
+    position: absolute;
+    font-size: 8vh;
+    font-family: cursive;
+    color: antiquewhite;
+    bottom: 15vh;
+    right: 8vw;
+    margin: 0;
+    padding: 0;
+    -webkit-animation: landingSlideshow 15s linear 5s, imageZoom 10s linear;
+    -moz-animation: landingSlideshow 15s linear 5s, imageZoom 10s linear;
+    -ms-animation: landingSlideshow 15s linear 5s, imageZoom 10s linear;
+    -o-animation: landingSlideshow 15s linear 5s, imageZoom 10s linear;
+    animation: landingSlideshow 15s linear 5s, imageZoom 10s linear;
+}
+
 
 img.landingImage {
     position: absolute;
@@ -9,40 +52,43 @@ img.landingImage {
     width:100vw;
     top: 0; left: 0;
     z-index: 4;
-    -webkit-animation: landingSlideshow 15s linear 0s infinite,
-                    imageZoom 5s linear infinite;
+    -webkit-animation: landingSlideshow 15s linear 0s,
+                    imageZoom 5s linear;
 
-    -moz-animation: landingSlideshow 15s linear 0s infinite,
-                     imageZoom 5s linear infinite;
+    -moz-animation: landingSlideshow 15s linear 0s,
+                     imageZoom 5s linear ;
 
-    -ms-animation: landingSlideshow 15s linear 0s infinite,
-                     imageZoom 5s linear infinite;
+    -ms-animation: landingSlideshow 15s linear 0s,
+                     imageZoom 5s linear ;
 
-    -o-animation: landingSlideshow 15s linear 0s infinite,
-                     imageZoom 5s linear infinite;
+    -o-animation: landingSlideshow 15s linear 0s,
+                     imageZoom 5s linear ;
 
-    animation: landingSlideshow 15s linear 0s infinite,
-                imageZoom 5s linear infinite;
+    animation: landingSlideshow 15s linear 0s,
+                imageZoom 5s linear;
   }
   
   img.landingImage:nth-child(2) {
     z-index: 3;
-    -webkit-animation: landingSlideshow 15s linear 5s infinite, imageZoom 10s linear infinite;
-    -moz-animation: landingSlideshow 15s linear 5s infinite, imageZoom 10s linear infinite;
-    -ms-animation: landingSlideshow 15s linear 5s infinite, imageZoom 10s linear infinite;
-    -o-animation: landingSlideshow 15s linear 5s infinite, imageZoom 10s linear infinite;
-    animation: landingSlideshow 15s linear 5s infinite, imageZoom 10s linear infinite;
+    -webkit-animation: landingSlideshow 15s linear 5s, imageZoom 10s linear;
+    -moz-animation: landingSlideshow 15s linear 5s, imageZoom 10s linear;
+    -ms-animation: landingSlideshow 15s linear 5s, imageZoom 10s linear;
+    -o-animation: landingSlideshow 15s linear 5s, imageZoom 10s linear;
+    animation: landingSlideshow 15s linear 5s, imageZoom 10s linear;
   }
   
   img.landingImage:nth-child(3) {
      z-index: 2;
-    -webkit-animation: landingSlideshow 15s linear 10s infinite;
-    -moz-animation: landingSlideshow 15s linear 10s infinite;
-    -ms-animation: landingSlideshow 15s linear 10s infinite;
-    -o-animation: landingSlideshow 15s linear 10s infinite;
-    animation: landingSlideshow 15s linear 10s infinite;
+    -webkit-animation: landingSlideshow 15s linear 10s;
+    -moz-animation: landingSlideshow 15s linear 10s;
+    -ms-animation: landingSlideshow 15s linear 10s;
+    -o-animation: landingSlideshow 15s linear 10s;
+    animation: landingSlideshow 15s linear 10s;
   }
 
+
+
+  /* Slideshow effects */
   @-webkit-keyframes landingSlideshow {
     25% { opacity: 1; }
     33.33% { opacity: 0; } 
@@ -75,7 +121,7 @@ img.landingImage {
  }
 
 
-
+/* zoom affects */
  @-webkit-keyframes imageZoom {
     25% { transform: scale(1.2) }
     50% { transform: scale(1.3) }
