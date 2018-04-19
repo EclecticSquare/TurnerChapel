@@ -21,16 +21,16 @@ class Home extends Component {
                 {/* navbar */}
                 <ul className="nav justify-content-end fixed-top">
                     <li className="nav-item">
-                        <a className="nav-link active" href="#">Active</a>
+                        <a className="nav-link active" href="#">Our Story</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Link</a>
+                        <a className="nav-link" href="#">Meet the Pastor</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Link</a>
+                        <a className="nav-link" href="#">Tithes and Offerings</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link disabled" href="#">Disabled</a>
+                        <a className="nav-link" href="#">Calendar</a>
                     </li>
                 </ul>
               
@@ -49,12 +49,9 @@ class Home extends Component {
                             
                             <img src={ImageA}/>
                             <div className="btn-group-vertical btn-group-lg">
-                                <button type="button" className="btn btn-secondary">Our Story</button>
-                                <button type="button" className="btn btn-secondary">Meet the Pastor</button>
-                                <button type="button" className="btn btn-secondary">Tithes and Offerings</button>
-                                <button type="button" class="btn btn-secondary">Right</button>
-                                <button type="button" class="btn btn-secondary">Right</button>
-                                <button type="button" class="btn btn-secondary">Right</button>
+                                <button type="button" className="btn btn-secondary">Mission</button>
+                                <button type="button" className="btn btn-secondary">Services</button>
+                                <button type="button" className="btn btn-secondary">Announcements</button>
                             </div>
                         </div>
                         

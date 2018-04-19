@@ -16,7 +16,7 @@ div.col-10 {
 }
 
 div.col-2 {
-    background-color: rgb(157, 92, 175);
+    background-color:#321F3F;
     margin: 0;
     padding: 0;
     z-index: 15;
@@ -24,10 +24,14 @@ div.col-2 {
 
 div.btn-group-vertical.btn-group-lg {
     width: 100%;
-    top: 15vh;
+    background-color:#321F3F;
     z-index: 15;
 }
 
+button.btn.btn-secondary {
+    background-color:#321F3F;
+    border-color:  #321F3F;
+}
 img {
     width: 100%;
     top: 15vh;
