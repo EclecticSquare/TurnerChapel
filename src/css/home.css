@@ -4,8 +4,12 @@
 }
 
 ul.nav.justify-content-end {
-    background-color:#624B68;
+    background-color:#321F3F;
     font-size: 25px;
+    
+}
+
+a.nav-link {
     color: antiquewhite; 
 }
 
@@ -31,10 +35,13 @@ div.btn-group-vertical.btn-group-lg {
 button.btn.btn-secondary {
     background-color:#321F3F;
     border-color:  #321F3F;
+    color: antiquewhite; 
+    font-size: 15px;
 }
+
 img {
     width: 100%;
-    top: 15vh;
+    top: 25vh;
     z-index: 15;
 }
 

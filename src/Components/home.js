@@ -14,6 +14,11 @@ import Landing from '../Components/landing'
 import Slideshow from '../Components/slideshow'
 import ImageA from '../Images/turner_logo.jpg'
 
+
+
+{/* <Link to='/home' className='linkStyle'>Home</Link> */}
+
+
 class Home extends Component {
     render() {
         return(
@@ -21,10 +26,10 @@ class Home extends Component {
                 {/* navbar */}
                 <ul className="nav justify-content-end fixed-top">
                     <li className="nav-item">
-                        <a className="nav-link active" href="#">Our Story</a>
+                        <Link to='/home'><a className="nav-link active" href="#">Our Story</a></Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Meet the Pastor</a>
+                        <Link to='/pastor'><a className="nav-link" href="#">Meet the Pastor</a></Link>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#">Tithes and Offerings</a>
@@ -49,7 +54,7 @@ class Home extends Component {
                             
                             <img src={ImageA}/>
                             <div className="btn-group-vertical btn-group-lg">
-                                <button type="button" className="btn btn-secondary">Mission</button>
+                                <button type="button" className="btn btn-secondary" >Mission</button>
                                 <button type="button" className="btn btn-secondary">Services</button>
                                 <button type="button" className="btn btn-secondary">Announcements</button>
                             </div>
