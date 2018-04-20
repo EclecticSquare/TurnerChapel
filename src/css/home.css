@@ -3,14 +3,17 @@
     padding:0;
 }
 
-ul.nav.justify-content-end {
-    background-color:#321F3F;
+ul.nav.justify-content-left {
+    
     font-size: 25px;
+    
     
 }
 
 a.nav-link {
     color: antiquewhite; 
+    animation: colorChange 15s, linear;
+    margin-right: 15px;
 }
 
 div.col-10 {
@@ -46,3 +49,10 @@ img {
 }
 
 
+@keyframes colorChange {
+    25% { color: antiquewhite; }
+    33.33% { color: antiquewhite; } 
+    89.66% { color: #321F3F;}
+    95% { color: #321F3F;}
+    100% {color: antiquewhite;}
+ }

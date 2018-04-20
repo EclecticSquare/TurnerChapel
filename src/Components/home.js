@@ -24,7 +24,7 @@ class Home extends Component {
         return(
             <div className=''>
                 {/* navbar */}
-                <ul className="nav justify-content-end fixed-top">
+                <ul className="nav justify-content-left fixed-top">
                     <li className="nav-item">
                         <Link to='/home'><a className="nav-link active" href="#">Our Story</a></Link>
                     </li>
@@ -32,10 +32,19 @@ class Home extends Component {
                         <Link to='/pastor'><a className="nav-link" href="#">Meet the Pastor</a></Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Tithes and Offerings</a>
+                        <Link to='/story'><a className="nav-link" href="#">Tithes and Offerings</a></Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Calendar</a>
+                        <Link to='/calendar'><a className="nav-link" href="#">Calendar</a></Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to='/news'><a className="nav-link" href="#">News and Events</a></Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to='/ministries'><a className="nav-link" href="#">Ministries</a></Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to='/contact'><a className="nav-link" href="#">Contact Us</a></Link>
                     </li>
                 </ul>
               
