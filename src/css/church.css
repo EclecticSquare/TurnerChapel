@@ -38,9 +38,15 @@ p {
     text-align: justify;
     background-color: #301F40;
     width: 100%;
+    color:antiquewhite;
 }
 
 img.d-inline-block.align-top {
+    height: 8vh;
+    width: auto;
+}
+
+img.navLogo {
     height: 8vh;
     width: auto;
 }

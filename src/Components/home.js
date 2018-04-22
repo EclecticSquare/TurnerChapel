@@ -26,7 +26,10 @@ class Home extends Component {
                 {/* navbar */}
                 <ul className="nav justify-content-left fixed-top">
                     <li className="nav-item">
-                        <Link to='/home'><a className="nav-link active" href="#">Our Story</a></Link>
+                        <Link to='/home'><a className="nav-link active" href="#">Home</a></Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to='/story'><a className="nav-link active" href="#">Our Story</a></Link>
                     </li>
                     <li className="nav-item">
                         <Link to='/pastor'><a className="nav-link" href="#">Meet the Pastor</a></Link>

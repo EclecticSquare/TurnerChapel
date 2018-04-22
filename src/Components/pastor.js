@@ -3,10 +3,10 @@ import '../css/pastor.css'
 import Logo from '../Images/turner_logo.jpg'
 import {Link} from 'react-router-dom';
 import pastorImage from '../Images/pastorStandin.jpeg'
-import ImageZ from '../Images/1.jpg'
-import ImageW from '../Images/2.jpg'
-import ImageX from '../Images/3.jpg'
-import ImageY from '../Images/4.jpg'
+import ImageZ from '../Images/pastorExample1.jpeg'
+import ImageW from '../Images/pastorExample2.jpeg'
+import ImageX from '../Images/pastorExample3.jpeg'
+import ImageY from '../Images/pastorExample4.jpeg'
 class Pastor extends Component {
     render() {
         return(
@@ -14,10 +14,13 @@ class Pastor extends Component {
                  {/* navbar */}
                  <ul className="pastor nav justify-content-center fixed-top">
                     <li className="nav-item">
-                        <Link to='/home'><a className="pastor nav-link" href="#">Our Story</a></Link>
+                        <Link to='/home'><a className="nav-link active" href="#">Home</a></Link>
                     </li>
                     <li className="nav-item">
-                        <Link to='/pastor'><a className="pastor nav-link" href="#">Meet the Pastor</a></Link>
+                        <Link to='/story'><a className="nav-link active" href="#">Our Story</a></Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to='/pastor'><a className="nav-link" href="#">Meet the Pastor</a></Link>
                     </li>
                     <li className="nav-item">
                         <Link to='/story'><a className="pastor nav-link" href="#">Tithes and Offerings</a></Link>
@@ -33,6 +36,9 @@ class Pastor extends Component {
                     </li>
                     <li className="nav-item">
                         <Link to='/contact'><a className="pastor nav-link" href="#">Contact Us</a></Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to='/home'><img className="navLogo" src={Logo}/></Link>
                     </li>
                 </ul>
 
