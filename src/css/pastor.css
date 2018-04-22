@@ -18,14 +18,26 @@ div.pastorContainer, {
 
 p.pastorInfo  {
     background-color: #321F3F;
-    height: 73vh;
+    height: 75vh;
     color: antiquewhite;
+    float: left;
+    font-size: 22px;
+    padding-left: 5vw; 
 }
 
 h1.display-3 {
     background-color: #321F3F;
     margin-bottom: 0 !important  ;
-    padding-top: 15vh;
-    padding-bottom: 5vh;
+    padding-top: 10vh;
+    padding-bottom: 3vh;
     color: antiquewhite;
+}
+
+img.pastorImage {
+    float: right;
+    width: 40vh;
+    height: 50vh;
+    border-radius: 50%;
+    border: 5px solid antiquewhite;
+    margin-left: 30px;
 }
