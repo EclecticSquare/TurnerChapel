@@ -3,8 +3,10 @@ import '../css/pastor.css'
 import Logo from '../Images/turner_logo.jpg'
 import {Link} from 'react-router-dom';
 import pastorImage from '../Images/pastorStandin.jpeg'
-
-
+import ImageZ from '../Images/1.jpg'
+import ImageW from '../Images/2.jpg'
+import ImageX from '../Images/3.jpg'
+import ImageY from '../Images/4.jpg'
 class Pastor extends Component {
     render() {
         return(
@@ -45,7 +47,33 @@ class Pastor extends Component {
 
 
                 {/* randomized images */}
+                <div className='needDiv'>Hello</div>
+                
 
+
+
+
+
+
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-sm">
+                        <img className='pastorSlideImage' src={ImageW}/>
+                        </div>
+                        <div className="col-sm">
+                        <img className='pastorSlideImage' src={ImageX}/>
+                        </div>
+                        <div className="col-sm">
+                        <img className='pastorSlideImage' src={ImageY}/>
+                        </div>
+                        <div className="col-sm">
+                        <img className='pastorSlideImage' src={ImageZ}/>
+                        </div>
+                    </div>
+                </div>
+
+               
+    
 
             </div>
         )
