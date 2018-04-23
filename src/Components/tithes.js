@@ -47,12 +47,22 @@ class Tithes extends Component {
                     <div className='row'>
                         {/* Why tithe */}
                         <div className='tithe col-md'>
-                            one side
-                            <img src={Tithe}/>
+                            <img  id='tithePlate' src={Tithe}/>
                         </div>
 
                         <div className='tithe col-md'>
-                            the other side
+                            <h2 className='titheTitle'>Tithes and Offerings</h2>
+                            <h5 className='tithePara'>These two words are often spoken in the same breath...but what's the difference between them? “Tithe” literally means "tenth" or 10 percent. A tithe is the first 10% of your income. An offering is anything you give in addition to 10%. The Bible says in Deuteronomy 14:23 (Living Bible):
+
+ "The purpose of tithing is to teach you always to put God first in your lives..."
+
+<br/>Tithing is a reminder that God is the supplier of everything we have. It is also God’s personal invitation to experience an outpouring of his blessing in each of our lives. In Malachi 3:10, God essentially says:
+
+“Go ahead. I dare you. See if you can out-give me!”
+
+<br/>And in 2 Corinthians 8:7, we're encouraged to EXCEL in the grace of giving because God influences the world through his people. He GIVES TO YOU so he can GIVE THROUGH YOU. As we faithfully give, the world is changed for the glory of God: the LIFE Jesus offers is preached, people are fed, brokeness is healed, churches are built and each of us, in turn, are blessed by God so that we can give again.
+
+<br/>SO, is God wise? Do we trust him? If God is wise, then WE are wise to follow what he says about financial stewardship. If we trust him, then we must trust him with all aspects of our lives - including finances. So go ahead - accept God’s invitation to put him to the test. Start tithing faithfully and watch what he does in and through your life. Thanks to Saddleback Church for providing some of the above text.</h5>
                         </div>
 
 
