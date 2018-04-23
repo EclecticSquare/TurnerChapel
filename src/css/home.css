@@ -13,7 +13,7 @@ ul.nav.justify-content-left {
 a.nav-link {
     color: antiquewhite; 
     animation: colorChange 15s, linear;
-    margin-right: 15px;
+    margin-right: 12px;
 }
 
 div.col-10 {
