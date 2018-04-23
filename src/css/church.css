@@ -3,7 +3,7 @@
 img.church {
     width: 45vw;
     float: left;
-    margin-right: 20px;
+    margin-right: 1.5vw;
 }
 
 a.nav-item.nav-link.list {
@@ -46,11 +46,14 @@ p.paraText {
     width: 100%;
     color:antiquewhite;
     margin-bottom: 0;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    
 }
 
 
 img.navLogo {
     height: 8vh;
     width: auto;
+    padding-left: 5vw;
 }
 

@@ -43,7 +43,7 @@ class Church extends Component {
                 {/* about the church Info */}
 
                 
-                <h1 className='display-3 churchTitle'>Our Church</h1>
+                <h1 className='display-3 churchTitle'>Greater Turner Chapel A.M.E. Church</h1>
                 
                 <p className='paraText'><img className='church' src={ImageV}/>Maecenas orci ipsum, sagittis at elit sed, pellentesque ultricies erat. Ut blandit eleifend elit quis elementum. Suspendisse id laoreet tellus. Maecenas enim leo, aliquet nec diam non, posuere pulvinar felis. Integer et diam non dui facilisis finibus nec sit amet tellus. Sed convallis risus nec tortor eleifend lacinia. Phasellus tempor congue dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis vehicula urna, at suscipit nibh. Aenean faucibus, ante nec semper tempus, libero mi tristique augue, ut vulputate elit nibh a est. Nullam quis efficitur mi. <br/>
                     Integer pharetra justo ante, nec sodales erat dictum et. Fusce vestibulum aliquam libero, eget eleifend arcu tristique efficitur. Nulla justo diam, semper sit amet turpis ac, tempus fermentum metus. Ut non ornare felis. In imperdiet erat urna, a ullamcorper ligula fringilla a. Aliquam erat volutpat. Quisque risus metus, volutpat nec sodales vel, ultricies vitae ligula. Nunc eu metus rutrum, porta mauris ac, dignissim orci. Praesent sed pellentesque nisi. Phasellus viverra gravida mi, sit amet dapibus elit rhoncus vel. Quisque sed viverra justo. Aenean nisl ligula, luctus eleifend laoreet nec, molestie at ipsum. Donec nulla justo, ultrices eget vulputate vel, finibus vel enim. Pellentesque quis magna eu elit lacinia imperdiet.<br/>
