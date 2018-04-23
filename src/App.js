@@ -3,6 +3,7 @@ import './App.css';
 import Home from './Components/home';
 import Church from './Components/church';
 import Pastor from './Components/pastor'
+import Tithes from './Components/tithes'
 import {Route} from 'react-router-dom';
 import Slideshow from './Components/slideshow'
 
@@ -17,6 +18,7 @@ class App extends Component {
         <Route exact path="/home" component={Home}/>
         <Route exact path="/story" component={Church}/>
         <Route exact path="/pastor" component={Pastor}/>
+        <Route exact path="/tithes" component={Tithes}/>
         {/* <Route exact path="/calendar" component={Calendar}/> */}
         {/* <Route exact path="/news" component={News}/> */}
         {/* <Route exact path="/ministries" component={Ministries}/> */}

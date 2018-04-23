@@ -61,7 +61,7 @@ class Pastor extends Component {
 
 
 
-                <div className="container-fluid">
+                <div className="pastor container-fluid">
                     <div className="row">
                         <div className="col-sm">
                         <img className='pastorSlideImage' src={ImageW}/>
