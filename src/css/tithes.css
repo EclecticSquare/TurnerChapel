@@ -1,5 +1,6 @@
 body {
     height: 100vh;
+    
 }
 div.tithe.col-md {
     background-color: #B92D26;
@@ -10,18 +11,46 @@ div.tithe.col-md {
 
 img#tithePlate {
     margin: 0;
-    padding: 0;
+    padding: 0 0 5vh 0;
 }
 
 h2.titheTitle {
-    color: lightgray;
+    color: antiquewhite;
     margin-bottom: 0 !important;
     padding-bottom: 0 !important;
 }
 
 h5.tithePara {
-    color: lightgray;
+    color: antiquewhite;
    text-align: justify;
     margin: 2vh 3vw 0 3vw !important;
     padding-bottom: 0 !important;
 }
+
+button.btn.btn-secondary.btn-lg {
+    
+    color: antiquewhite;
+    font-size: 2.5vh;
+}
+
+button.btn.btn-secondary.btn-lg:hover{
+    font-size: 5vh;
+}
+
+blockquote.blockquote {
+    
+    position: absolute;
+    left: 12vw;
+    margin: auto;
+    width: 75vw;
+    text-align: left;
+    font-size: 30px;
+}
+span {
+    font-size:100px;
+    line-height:0.6em;
+    opacity:0.2;
+}
+
+
+
