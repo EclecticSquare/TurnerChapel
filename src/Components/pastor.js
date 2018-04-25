@@ -23,7 +23,7 @@ class Pastor extends Component {
                         <Link to='/pastor'><a className="nav-link" href="#">Meet the Pastor</a></Link>
                     </li>
                     <li className="nav-item">
-                        <Link to='/story'><a className="pastor nav-link" href="#">Tithes and Offerings</a></Link>
+                        <Link to='/tithes'><a className="pastor nav-link" href="#">Tithes and Offerings</a></Link>
                     </li>
                     <li className="nav-item">
                         <Link to='/calendar'><a className="pastor nav-link" href="#">Calendar</a></Link>
