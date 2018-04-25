@@ -10,7 +10,7 @@ const landing = (props) => {
     return (
         <div className=''>
             <div id='slideshowContainer'>
-                <h1 className='landingWelcome'>You Are Welcome</h1>
+                <h1 className='landingWelcome'>All Are Welcome</h1>
                 <h1 className='landingFamily'>Come Join Our Family</h1>
                 <div id='landingSlideshow'>
                     <img  className='landingImage' src={ImageA}/>

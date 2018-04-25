@@ -21,26 +21,6 @@ const slideshow = (props) => {
                 </div>
             </div>
             
-            <div className='bottom container-fluid'>
-                <div className='row'>
-                    <div className='col-3 '>
-                        <img  className='slideImage' src={Image1}/>
-                    </div>
-                    
-                    <div className='col-3 '>
-                        <img  className='slideImage' src={Image2}/>
-                    </div>
-
-                    <div className='col-3  '>
-                        <img className='slideImage'  src={Image3}/>
-                    </div>
-
-                    <div className='col-3  '>
-                        <img  className='slideImage' src={Image4}/>
-                    </div>
- 
-                </div>
-            </div>
             
             
 
