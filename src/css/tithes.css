@@ -27,25 +27,45 @@ h5.tithePara {
     padding-bottom: 0 !important;
 }
 
-button.btn.btn-secondary.btn-lg {
-    
-    color: antiquewhite;
-    font-size: 2.5vh;
-}
 
-button.btn.btn-secondary.btn-lg:hover{
-    font-size: 5vh;
-}
 
 blockquote.blockquote {
-    
     position: absolute;
     left: 12vw;
     margin: auto;
     width: 75vw;
     text-align: left;
     font-size: 30px;
+    z-index: 3;
+    -webkit-animation: slideshow 30s linear 0s infinite;
+    -moz-animation: slideshow 30s linear 0s infinite;
+    -ms-animation: slideshow 30s linear 0s infinite;
+    -o-animation: slideshow 30s linear 0s infinite;
+    animation: slideshow 30s linear 0s infinite;
 }
+
+blockquote.blockquote:nth-child(2) {
+    opacity: 0;
+    z-index: 2;
+    -webkit-animation: slideshow 30s linear 10s infinite;
+    -moz-animation: slideshow 30s linear 10s infinite;
+    -ms-animation: slideshow 30s linear 10s infinite;
+    -o-animation: slideshow 30s linear 10s infinite;
+    animation: slideshow 30s linear 10s infinite;
+}
+
+blockquote.blockquote:nth-child(3) {
+    opacity: 0;
+    z-index: 1;
+    -webkit-animation: slideshow 30s linear 20s infinite;
+    -moz-animation: slideshow 30s linear 20s infinite;
+    -ms-animation: slideshow 30s linear 20s infinite;
+    -o-animation: slideshow 30s linear 20s infinite;
+    animation: slideshow 30s linear 20s infinite;
+  
+}
+
+
 span {
     font-size:100px;
     line-height:0.6em;
@@ -53,4 +73,44 @@ span {
 }
 
 
+button.btn.btn-secondary.btn-lg {
+    position: absolute;
+    color: antiquewhite;
+    bottom: 3vh;
+    font-size: 3.5vh;
+}
 
+button.btn.btn-secondary.btn-lg:hover{
+    transform: scale(1.5);
+    bottom: 6vh;
+}
+@-webkit-keyframes slideshow {
+    25% { opacity: 1;}
+    33.33% { opacity: 0;} 
+    91.66% { opacity: 0;}
+    100% { opacity: 1;}
+ }
+ @-moz-keyframes slideshow {
+    25% { opacity: 1;}
+    33.33% { opacity: 0;} 
+    91.66% { opacity: 0;}
+    100% { opacity: 1;}
+ }
+ @-ms-keyframes slideshow {
+    25% { opacity: 1;}
+    33.33% { opacity: 0;} 
+    91.66% { opacity: 0;}
+    100% { opacity: 1;}
+ }
+ @-o-keyframes slideshow {
+    25% { opacity: 1;}
+    33.33% { opacity: 0;} 
+    91.66% { opacity: 0;}
+    100% { opacity: 1;}
+ }
+ @keyframes slideshow {
+    25% { opacity: 1;}
+    33.33% { opacity: 0;} 
+    91.66% { opacity: 0;}
+    100% { opacity: 1;}
+ }

@@ -51,36 +51,7 @@ img.mainImage {
    -o-animation: slideshow 20s linear 16s infinite;
    animation: slideshow 20s linear 16s infinite;
  }
-  @-webkit-keyframes slideshow {
-     25% { opacity: 1;}
-     33.33% { opacity: 0;} 
-     91.66% { opacity: 0;}
-     100% { opacity: 1;}
-  }
-  @-moz-keyframes slideshow {
-     25% { opacity: 1;}
-     33.33% { opacity: 0;} 
-     91.66% { opacity: 0;}
-     100% { opacity: 1;}
-  }
-  @-ms-keyframes slideshow {
-     25% { opacity: 1;}
-     33.33% { opacity: 0;} 
-     91.66% { opacity: 0;}
-     100% { opacity: 1;}
-  }
-  @-o-keyframes slideshow {
-     25% { opacity: 1;}
-     33.33% { opacity: 0;} 
-     91.66% { opacity: 0;}
-     100% { opacity: 1;}
-  }
-  @keyframes slideshow {
-     25% { opacity: 1;}
-     33.33% { opacity: 0;} 
-     91.66% { opacity: 0;}
-     100% { opacity: 1;}
-  }
+
   
   div.bottom.container-fluid {
     position: absolute;
@@ -107,4 +78,33 @@ img.mainImage {
   100%    {transform:scale(1.75);} 
 }
 
-
+@-webkit-keyframes slideshow {
+  25% { opacity: 1;}
+  33.33% { opacity: 0;} 
+  91.66% { opacity: 0;}
+  100% { opacity: 1;}
+}
+@-moz-keyframes slideshow {
+  25% { opacity: 1;}
+  33.33% { opacity: 0;} 
+  91.66% { opacity: 0;}
+  100% { opacity: 1;}
+}
+@-ms-keyframes slideshow {
+  25% { opacity: 1;}
+  33.33% { opacity: 0;} 
+  91.66% { opacity: 0;}
+  100% { opacity: 1;}
+}
+@-o-keyframes slideshow {
+  25% { opacity: 1;}
+  33.33% { opacity: 0;} 
+  91.66% { opacity: 0;}
+  100% { opacity: 1;}
+}
+@keyframes slideshow {
+  25% { opacity: 1;}
+  33.33% { opacity: 0;} 
+  91.66% { opacity: 0;}
+  100% { opacity: 1;}
+}

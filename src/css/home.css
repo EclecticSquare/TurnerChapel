@@ -9,11 +9,14 @@ ul.nav.justify-content-left {
     
     
 }
-
+a {
+    text-decoration: none !important;
+}
 a.nav-link {
     color: antiquewhite; 
     animation: colorChange 15s, linear;
     margin-right: 12px;
+    text-decoration: none;
 }
 
 div.col-10 {
