@@ -1,17 +1,12 @@
 import React, { Component } from 'react';
 import Logo from '../Images/turner_logo.jpg';
-import '../css/home.css';
-import Landing from '../Components/landing';
-import Slideshow from '../Components/slideshow';
 import {Link} from 'react-router-dom';
+import '../css/calendarNews.css'
 
 
-
-
-
-class Home extends Component {
-    render() {
-        return(
+class CalendarNews extends Component {
+    render(){
+        return (
             <div className=''>
                 {/* navbar */}
                 <ul className="nav justify-content-left fixed-top">
@@ -39,69 +34,33 @@ class Home extends Component {
                     <li className="nav-item">
                         <Link to='/contact'><a className="nav-link" href="#">Contact Us</a></Link>
                     </li>
+                    <li className="nav-item">
+                        <Link to='/home'><img className="navLogo" src={Logo}/></Link>
+                    </li>
                 </ul>
-              
-                <div className='container-fluid'>
-                    <div className='row'>
 
-                        {/* slideshow */}
-                        <div className='col-10'>
-                            <Landing/>
-                        </div>
+               
 
-                        {/* information buttons */}
-                        <div className='col-2'>
-                            <br/>
-                            <br/>
-                            
-                            <img src={Logo}/>
-                            <div className="btn-group-vertical btn-group-lg">
-                                <button type="button" className="btn btn-secondary" >Mission</button>
-                                <button type="button" className="btn btn-secondary">Services</button>
-                                <button type="button" className="btn btn-secondary">Announcements</button>
-                            </div>
-                        </div>
-                        
-                    </div>
+                {/* News and Events Feed */}
+                <div className="news">
+                    <span>What's happening at G.T.C</span>
+                    <ul>
+                        <li><a href="#">Student Bitten by Radioactive Bear...</a></li>
+                        <li><a href="#">Pluto Now Officially A Planet Again...</a></li>
+                        <li><a href="#">Study Reveals: Babies Are Stupid...</a></li>
+                        <li><a href="#">Elvis Presley Found Alive In Jersey...</a></li>
+                        <li><a href="#">Alien Life Confirmed on Uranus...</a></li>
+                        <li><a href="#">Archeologist Finds Skeleton People...</a></li>
+                        <li><a href="#">Microsoft Unveils Windows 21...</a></li>
+                        <li><a href="#">Developer Discovers Mobile Internet...</a></li>
+                        <li><a href="#">Bluetooth: The Silent Killer?...</a></li>
+                    </ul>
                 </div>
+                 {/* Calendar */}
 
-
-                
-                {/* follow me */}
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                
-
-
-
-                    
-
-
-
-            
-
-
-
-
-
-
-
         )
     }
 }
 
-export default Home
+export default CalendarNews;
