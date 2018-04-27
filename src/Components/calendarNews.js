@@ -3,6 +3,11 @@ import Logo from '../Images/turner_logo.jpg';
 import {Link} from 'react-router-dom';
 import '../css/calendarNews.css'
 
+import Image10 from '../Images/1.jpg'
+import Image11 from '../Images/2.jpg'
+import Image12 from '../Images/3.jpg'
+import Image13 from '../Images/4.jpg'
+import Image14 from '../Images/5.jpg'
 
 class CalendarNews extends Component {
     render(){
@@ -43,20 +48,15 @@ class CalendarNews extends Component {
 
                 {/* News and Events Feed */}
                 <div className="news">
-                    <span>What's happening at G.T.C</span>
-                    <ul>
-                        <li><a href="#">Student Bitten by Radioactive Bear...</a></li>
-                        <li><a href="#">Pluto Now Officially A Planet Again...</a></li>
-                        <li><a href="#">Study Reveals: Babies Are Stupid...</a></li>
-                        <li><a href="#">Elvis Presley Found Alive In Jersey...</a></li>
-                        <li><a href="#">Alien Life Confirmed on Uranus...</a></li>
-                        <li><a href="#">Archeologist Finds Skeleton People...</a></li>
-                        <li><a href="#">Microsoft Unveils Windows 21...</a></li>
-                        <li><a href="#">Developer Discovers Mobile Internet...</a></li>
-                        <li><a href="#">Bluetooth: The Silent Killer?...</a></li>
-                    </ul>
+                    <img className='scrollImage' src={Image10}/>
+                    <img className='scrollImage' src={Image11}/>
+                    <img className='scrollImage' src={Image12}/>
+                    <img className='scrollImage' src={Image13}/>
+                    <img className='scrollImage' src={Image14}/>
                 </div>
+                 
                  {/* Calendar */}
+                
 
             </div>
         )
