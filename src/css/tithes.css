@@ -3,6 +3,9 @@ body {
     
 }
 
+ul.nav.nonHome.justify-content-left {
+    background-color:#321F3F;
+}
 
 img.cornerLogo {
     position: absolute;
@@ -14,16 +17,17 @@ img.cornerLogo {
 }
 
 
-div.tithe.col-md {
+div.tithe.col-lg {
     background-color: #B92D26;
-    padding: 10vh 0 0 0;
     margin:0;
     
 }
 
 img#tithePlate {
     margin: 0;
-    padding: 0 0 5vh 0;
+    padding: 0 3vw 0 0;
+    height: 60vh;
+    float:left;
 }
 
 h2.titheTitle {
@@ -32,8 +36,9 @@ h2.titheTitle {
     padding-bottom: 0 !important;
 }
 
-h5.tithePara {
+p.tithePara {
     color: antiquewhite;
+    font-size: 20px;
    text-align: justify;
     margin: 2vh 3vw 0 3vw !important;
     padding-bottom: 0 !important;
@@ -88,7 +93,7 @@ span {
 button.btn.btn-secondary.btn-lg {
     position: absolute;
     color: antiquewhite;
-    bottom: 3vh;
+    top: 120vh;
     font-size: 3.5vh;
 }
 
