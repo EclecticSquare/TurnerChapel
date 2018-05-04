@@ -9,37 +9,39 @@ class Tithes extends Component {
         return (
         <div className=''>
             {/* navbar */}
-            <ul className="nav justify-content-left fixed-top">
-                <li className="nav-item">
-                        <Link to='/home'><a className="church nav-link" href="#">Home</a></Link>
+              {/* navbar */}
+              <ul className="nav justify-content-left fixed-top">
+                    
+                    
+                    <li className="nav-item">
+                        <Link to='/home'><a className="nav-link active" href="#">Home</a></Link>
                     </li>
                     <li className="nav-item">
-                        <Link to='/story'><a className="church nav-link" href="#">Our Story</a></Link>
+                        <Link to='/story'><a className="nav-link active" href="#">Our Story</a></Link>
                     </li>
                     <li className="nav-item">
-                        <Link to='/pastor'><a className="church nav-link" href="#">Meet the Pastor</a></Link>
+                        <Link to='/pastor'><a className="nav-link" href="#">Meet the Pastor</a></Link>
                     </li>
                     <li className="nav-item">
-                        <Link to='/tithes'><a className="church nav-link" href="#">Tithes and Offerings</a></Link>
+                        <Link to='/tithes'><a className="nav-link" href="#">Tithes and Offerings</a></Link>
                     </li>
+   
                     <li className="nav-item">
-                        <Link to='/calendar'><a className="church nav-link" href="#">Calendar</a></Link>
+                        <Link to='/news'><a className="nav-link" href="#">News and Events</a></Link>
                     </li>
+                    
                     <li className="nav-item">
-                        <Link to='/news'><a className="church nav-link" href="#">News and Events</a></Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to='/ministries'><a className="church nav-link" href="#">Ministries</a></Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to='/contact'><a className="church nav-link" href="#">Contact Us</a></Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to='/home'><img className="navLogo" src={Logo}/></Link>
+                        <Link to='/contact'><a className="nav-link" href="#">Contact Us</a></Link>
                     </li>
                 </ul>
+              
 
-                {/* Tithing session */}
+                {/* corne logo */}
+                <div className="">
+                        <Link to='/home'><img className="cornerLogo" src={Logo}/></Link>
+                </div>
+
+                {/* Tithing section */}
 
 
                 

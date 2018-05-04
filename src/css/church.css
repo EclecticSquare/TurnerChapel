@@ -12,7 +12,6 @@ a.nav-item.nav-link.list {
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 }
 
-
 a.church.nav-link {
     text-decoration: none;
 }
@@ -57,9 +56,19 @@ p.paraText {
 }
 
 
-img.navLogo {
-    height: 8vh;
-    width: auto;
-    padding-left: 5vw;
+
+img.cornerLogo {
+    position: absolute;
+    top:0;
+    right: 0;
+    height: 12vh;
+    width: 20vw;
+    z-index: 75; 
+}
+
+@media screen and (max-width: 1007px) {
+    img.church.navLogo {
+        display: none;
+    }
 }
 

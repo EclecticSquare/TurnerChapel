@@ -3,26 +3,19 @@
     padding:0;
 }
 
-ul.nav.justify-content-left {
-    
-    font-size: 25px;
-    
-    
-}
+
 a {
     text-decoration: none !important;
 }
 a.nav-link {
     color: antiquewhite; 
     animation: colorChange 15s, linear;
-    margin-right: 12px;
     text-decoration: none;
+    padding-top:3vh;
 }
 
 div.col-10 {
     height: 100vh;
-    margin: 0;
-    padding: 0;
 }
 
 div.col-2 {
@@ -45,11 +38,15 @@ button.btn.btn-secondary {
     font-size: 15px;
 }
 
-img {
-    width: 100%;
-    top: 25vh;
-    z-index: 15;
+img.cornerLogo {
+    position: absolute;
+    top:0;
+    right: 0;
+    height: 12vh;
+    width: 20vw;
+    z-index: 75; 
 }
+
 
 
 @keyframes colorChange {
@@ -59,3 +56,18 @@ img {
     95% { color: #321F3F;}
     100% {color: antiquewhite;}
  }
+
+ @media screen and (max-width:720px) {
+    li.nav-item {
+        width:100%;
+        text-align: left;
+        
+    }
+ }
+
+ @media screen and (max-width:1186){
+    ul.nav.justify-content-left.fixed-top {
+        text-align: center;
+    }
+ }
+

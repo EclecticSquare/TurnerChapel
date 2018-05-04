@@ -1,8 +1,8 @@
 
-
-ul.pastor.nav.justify-content-center.fixed-top {
-    font-size: 25px;
+ul.nav.nonHome.justify-content-left {
+    background-color:#321F3F;
 }
+
 
 a.pastor.nav-link {
     color: antiquewhite; 
@@ -10,9 +10,13 @@ a.pastor.nav-link {
     margin-right: 15px;
 }
 
-img.navLogo {
-    height: 8vh;
-    width: auto;
+img.cornerLogo {
+    position: absolute;
+    top:0;
+    right: 0;
+    height: 12vh;
+    width: 20vw;
+    z-index: 75; 
 }
 
 div.pastorContainer, {
@@ -21,9 +25,11 @@ div.pastorContainer, {
 
 
 p.pastorInfo  {
+    
     background-color: #321F3F;
     color: antiquewhite;
-    float: left;
+    margin:0;
+    text-align: left;
     font-size: 22px;
     padding-left: 5vw;
     padding-bottom: 5vw; 
@@ -47,9 +53,7 @@ img.pastorImage {
 }
 
 
-div.col-sm {
-    position: relative;
-}
+
 
 div.pastor.container-fluid {
     position: absolute;
@@ -64,7 +68,7 @@ div.needDiv {
 }
 
 
-div.col-sm {
+div.col-lg {
     padding: 0 !important;
     margin: 0 !important;
 }
@@ -73,4 +77,22 @@ img.pastorSlideImage {
     padding: 0 !important;
     margin: 0 !important;
     height: 25vh;
+    width: 100%;
+    right:0;
+}
+
+div.pastor.container-fluid {
+    position: relative;
+}
+
+@media screen and (max-width:1500) {
+    img.pastorSlideImage {
+        height: 35vh;
+        width: auto;
+    }
+
+    p.pastorInfo{
+        padding-bottom: 10vw;
+        font-size: 18px 
+    }
 }

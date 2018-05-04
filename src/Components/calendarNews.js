@@ -14,7 +14,10 @@ class CalendarNews extends Component {
         return (
             <div className=''>
                 {/* navbar */}
-                <ul className="nav justify-content-left fixed-top">
+                  {/* navbar */}
+                  <ul className="nav justify-content-left fixed-top">
+                    
+                    
                     <li className="nav-item">
                         <Link to='/home'><a className="nav-link active" href="#">Home</a></Link>
                     </li>
@@ -27,22 +30,21 @@ class CalendarNews extends Component {
                     <li className="nav-item">
                         <Link to='/tithes'><a className="nav-link" href="#">Tithes and Offerings</a></Link>
                     </li>
-                    <li className="nav-item">
-                        <Link to='/calendar'><a className="nav-link" href="#">Calendar</a></Link>
-                    </li>
+   
                     <li className="nav-item">
                         <Link to='/news'><a className="nav-link" href="#">News and Events</a></Link>
                     </li>
-                    <li className="nav-item">
-                        <Link to='/ministries'><a className="nav-link" href="#">Ministries</a></Link>
-                    </li>
+                    
                     <li className="nav-item">
                         <Link to='/contact'><a className="nav-link" href="#">Contact Us</a></Link>
                     </li>
-                    <li className="nav-item">
-                        <Link to='/home'><img className="navLogo" src={Logo}/></Link>
-                    </li>
                 </ul>
+              
+
+                {/* corner logo */}
+                <div className="">
+                        <Link to='/home'><img className="cornerLogo" src={Logo}/></Link>
+                </div>
 
                
 

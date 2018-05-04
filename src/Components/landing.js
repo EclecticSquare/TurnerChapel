@@ -4,6 +4,8 @@ import '../css/landing.css'
 import ImageA from '../Images/sunsetCross.jpg'
 import ImageB from '../Images/insideChurch.jpg'
 import ImageC from '../Images/turner_logo.jpg'
+import Logo from '../Images/turner_logo.jpg';
+
 
 //this is a component as a function
 const landing = (props) => {

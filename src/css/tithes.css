@@ -2,6 +2,18 @@ body {
     height: 100vh;
     
 }
+
+
+img.cornerLogo {
+    position: absolute;
+    top:0;
+    right: 0;
+    height: 12vh;
+    width: auto;
+    z-index: 75; 
+}
+
+
 div.tithe.col-md {
     background-color: #B92D26;
     padding: 10vh 0 0 0;
@@ -114,3 +126,7 @@ button.btn.btn-secondary.btn-lg:hover{
     91.66% { opacity: 0;}
     100% { opacity: 1;}
  }
+
+
+ 
+ 
