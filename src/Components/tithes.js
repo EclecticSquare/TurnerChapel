@@ -75,32 +75,54 @@ class Tithes extends Component {
                 </div>
 
 
+            <div className='container-fluid'>
+                <div className='row'>
+                    <div className=' slides col-8'>
+                {/* giving quotes */}
+                        <div id='slideshowContainer'>
+                            <div id='slideshow'>
+                                <blockquote className="blockquote" id='quote1'>
+                                <p className="mb-0"><span>&#10077;</span>There is one who scatters, and yet increases all the more, and there is one who withholds what is justly due, and yet it results only in want. The generous man will be prosperous, and he who waters will himself be watered.</p>
+                                <footer className="blockquote-footer">Proverbs 11:24-25</footer>
+                            </blockquote>
 
-        {/* giving quotes */}
-        <div id='slideshowContainer'>
-                <div id='slideshow'>
-                    <blockquote className="blockquote" id='quote1'>
-                    <p className="mb-0"><span>&#10077;</span>There is one who scatters, and yet increases all the more, and there is one who withholds what is justly due, and yet it results only in want. The generous man will be prosperous, and he who waters will himself be watered.</p>
-                    <footer className="blockquote-footer">Proverbs 11:24-25</footer>
-                </blockquote>
+                            <blockquote className="blockquote" id='quote2'>
+                                <p className="mb-0">Give generously to him and do so without a grudging heart; then because of this the Lord your God will bless you in all your work and in everything you put your hand to..<span>&#10078;</span></p>
+                                <footer className="blockquote-footer">Deuteronomy 15:10 </footer>
+                            </blockquote>
 
-                <blockquote className="blockquote" id='quote2'>
-                    <p className="mb-0">Give generously to him and do so without a grudging heart; then because of this the Lord your God will bless you in all your work and in everything you put your hand to..<span>&#10078;</span></p>
-                    <footer className="blockquote-footer">Deuteronomy 15:10 </footer>
-                </blockquote>
+                            <blockquote className="blockquote" id='quote3'>
+                                <p className="mb-0"><span>&#10077;</span>“Bring the whole tithe into the storehouse, so that there may be food in My house, and test Me now in this,” says the Lord of hosts, “if I will not open for you the windows of heaven and pour out for you a blessing until it overflows.</p>
+                                <footer className="blockquote-footer">Malachi 3:10</footer>
+                            </blockquote>
 
-                <blockquote className="blockquote" id='quote3'>
-                    <p className="mb-0"><span>&#10077;</span>“Bring the whole tithe into the storehouse, so that there may be food in My house, and test Me now in this,” says the Lord of hosts, “if I will not open for you the windows of heaven and pour out for you a blessing until it overflows.</p>
-                    <footer className="blockquote-footer">Malachi 3:10</footer>
-                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-4'>
+                         {/* Where to tithe */}
+                        <a href="https://www.givelify.com"><button type="button" className="btn btn-secondary btn-lg">Give Here</button></a>        
+                    </div>
+                
+
 
                 </div>
-        </div>
+            </div>
 
 
 
-        {/* Where to tithe */}
-        <a href="https://www.givelify.com"><button type="button" className="btn btn-secondary btn-lg">Give Here</button></a>        
+
+
+
+
+
+
+        
+
+
+
+       
 
         </div>
         )

@@ -9,6 +9,8 @@ ul.nav.nonHome.justify-content-left {
 
 img.cornerLogo {
     position: absolute;
+    border-left: solid 1px white;
+    border-bottom: solid 1px white;
     top:0;
     right: 0;
     height: 12vh;
@@ -25,8 +27,9 @@ div.tithe.col-lg {
 
 img#tithePlate {
     margin: 0;
-    padding: 0 3vw 0 0;
+    padding: 0 3vw 3vw 0;
     height: 60vh;
+    width: auto;
     float:left;
 }
 
@@ -38,19 +41,20 @@ h2.titheTitle {
 
 p.tithePara {
     color: antiquewhite;
-    font-size: 20px;
+    font-size: 18px;
    text-align: justify;
     margin: 2vh 3vw 0 3vw !important;
     padding-bottom: 0 !important;
 }
 
 
-
+div.slides.col-10{
+    height: auto;
+    width: auto;
+}
 blockquote.blockquote {
     position: absolute;
-    left: 12vw;
     margin: auto;
-    width: 75vw;
     text-align: left;
     font-size: 30px;
     z-index: 3;
@@ -91,15 +95,16 @@ span {
 
 
 button.btn.btn-secondary.btn-lg {
-    position: absolute;
+    
     color: antiquewhite;
-    top: 120vh;
     font-size: 3.5vh;
+    margin-right: 1vw;
+    margin-top: 7vh;
 }
 
 button.btn.btn-secondary.btn-lg:hover{
     transform: scale(1.5);
-    bottom: 6vh;
+    /* bottom: 6vh; */
 }
 @-webkit-keyframes slideshow {
     25% { opacity: 1;}
@@ -134,4 +139,9 @@ button.btn.btn-secondary.btn-lg:hover{
 
 
  
- 
+ @media screen and (max-width: 1000px) {
+    img#tithePlate {
+        height: 35vh;
+        width:auto;
+    }
+}
