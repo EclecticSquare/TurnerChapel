@@ -15,7 +15,7 @@ class CalendarNews extends Component {
             <div className=''>
                 {/* navbar */}
                   {/* navbar */}
-                  <ul className="nav justify-content-left fixed-top">
+                  <ul className="nav nonHome justify-content-left">
                     
                     
                     <li className="nav-item">
@@ -46,19 +46,30 @@ class CalendarNews extends Component {
                         <Link to='/home'><img className="cornerLogo" src={Logo}/></Link>
                 </div>
 
-               
 
-                {/* News and Events Feed */}
-                <div className="news">
-                    <img className='scrollImage' src={Image10}/>
-                    <img className='scrollImage' src={Image11}/>
-                    <img className='scrollImage' src={Image12}/>
-                    <img className='scrollImage' src={Image13}/>
-                    <img className='scrollImage' src={Image14}/>
-                </div>
+
+                <div className='container-fluid'>
+                    <div className='row'>  
+                        <div className='col-8'> 
+                            {/* Calendar */}
+                            <div class="googleCalendar">
+                            <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showTabs=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=gtcamechurch%40gmail.com&amp;color=%23711616&amp;ctz=America%2FNew_York" width="800" height="600" frameborder="0" scrolling="no"></iframe>                </div>
+                        </div>
+
+                        <div className='col-4'>
+                        HELLO
+                            {/* News and Events Feed */}
+                            {/* <div className="news">
+                                <img className='scrollImage' src={Image10}/>
+                                <img className='scrollImage' src={Image11}/>
+                                <img className='scrollImage' src={Image12}/>
+                                <img className='scrollImage' src={Image13}/>
+                                <img className='scrollImage' src={Image14}/>
+                            </div> */}
+                        </div>
                  
-                 {/* Calendar */}
-                
+                    </div>
+                </div>
 
             </div>
         )

@@ -5,6 +5,9 @@ body {
   height: 100%; 
 }
 
+ul.nav.nonHome.justify-content-left {
+  background-color:#321F3F;
+}
 
 img.cornerLogo {
   position: absolute;
@@ -15,8 +18,27 @@ img.cornerLogo {
   z-index: 75; 
 }
 
+iframe {
+  padding: 20px;
+}
 
+.googleCalendar{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  /* padding-bottom: 50%; */
+}
 
+.googleCalendar iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+div.col-8 {
+  height: 65vh;
+}
 .news {
   background: #c8102e;
   box-shadow: inset 0 -15px 30px rgba(0,0,0,0.4), 0 5px 10px rgba(0,0,0,0.5);
