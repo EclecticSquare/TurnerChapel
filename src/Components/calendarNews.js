@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Logo from '../Images/turner_logo.jpg';
 import {Link} from 'react-router-dom';
 import '../css/calendarNews.css'
+import eachAfterTimer from 'each-after';
 
 import Image10 from '../Images/1.jpg'
 import Image11 from '../Images/2.jpg'
@@ -9,7 +10,43 @@ import Image12 from '../Images/3.jpg'
 import Image13 from '../Images/4.jpg'
 import Image14 from '../Images/5.jpg'
 
+
+const eachAfter = eachAfterTimer()
+
 class CalendarNews extends Component {
+    constructor(props){
+        super(props);
+
+
+        this.state = {
+            news: []
+        }
+    };
+
+    componentDidMount(){
+        const onEach = (element, index, processed, interval) => {
+            this.setState({news: this.state.news.concat(element)})
+        }
+
+        const newsJSX = eachAfter (
+            ['this is a message',
+            <img className='scrollImage' src={Image11}/>,
+            'Volunteers needed for the prayer breakfast. Contact Brother Sam.',
+            'Pray for Sister Sarah.  Her bunions are acting up.',
+            'We have reached our goal of 150 backpacks for the school drive.',
+            <img className='scrollImage' src={Image14}/>
+            ],
+            5,
+            onEach
+        )
+    }
+
+
+
+
+
+
+
     render(){
         return (
             <div className=''>
@@ -57,15 +94,27 @@ class CalendarNews extends Component {
                         </div>
 
                         <div className='col-4'>
-                        HELLO
                             {/* News and Events Feed */}
-                            {/* <div className="news">
-                                <img className='scrollImage' src={Image10}/>
+                            
+                            <div className='floatingWords'>{this.state.news.map((element, index)=> {
+                                return <div key={index} className='newsStatement'>{element}</div>
+                            }
+                            )}
+                            </div>
+
+
+
+
+
+
+
+
+                                {/* <img className='scrollImage' src={Image10}/>
                                 <img className='scrollImage' src={Image11}/>
                                 <img className='scrollImage' src={Image12}/>
                                 <img className='scrollImage' src={Image13}/>
-                                <img className='scrollImage' src={Image14}/>
-                            </div> */}
+                                <img className='scrollImage' src={Image14}/> */}
+                            
                         </div>
                  
                     </div>
