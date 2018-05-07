@@ -4,12 +4,13 @@ import {Link} from 'react-router-dom';
 import '../css/calendarNews.css'
 import eachAfterTimer from 'each-after';
 
-import Image10 from '../Images/1.jpg'
-import Image11 from '../Images/2.jpg'
-import Image12 from '../Images/3.jpg'
-import Image13 from '../Images/4.jpg'
-import Image14 from '../Images/5.jpg'
-
+import Image10 from '../Images/Sunrise service/1.png'
+import Image11 from '../Images/Sunrise service/2.png'
+import Image12 from '../Images/Sunrise service/3.png'
+import Image13 from '../Images/Sunrise service/4.png'
+import Image14 from '../Images/Sunrise service/5.png'
+import Image15 from '../Images/Sunrise service/6.png'
+import Image16 from '../Images/Sunrise service/7.png'
 
 const eachAfter = eachAfterTimer()
 
@@ -19,7 +20,8 @@ class CalendarNews extends Component {
 
 
         this.state = {
-            news: []
+            news: [],
+            news2: []
         }
     };
 
@@ -29,17 +31,22 @@ class CalendarNews extends Component {
         }
 
         const newsJSX = eachAfter (
-            ['this is a message',
+            [<img className='scrollImage' src={Image10}/>,
             <img className='scrollImage' src={Image11}/>,
-            'Volunteers needed for the prayer breakfast. Contact Brother Sam.',
-            'Pray for Sister Sarah.  Her bunions are acting up.',
-            'We have reached our goal of 150 backpacks for the school drive.',
-            <img className='scrollImage' src={Image14}/>
+            <img className='scrollImage' src={Image12}/>,
+            <img className='scrollImage' src={Image13}/>,
+            <img className='scrollImage' src={Image14}/>,
+            <img className='scrollImage' src={Image15}/>,
+            <img className='scrollImage' src={Image16}/>
             ],
-            5,
-            onEach
+            10,
+            onEach,
+           
         )
     }
+
+
+
 
 
 
@@ -90,17 +97,22 @@ class CalendarNews extends Component {
                         <div className='col-8'> 
                             {/* Calendar */}
                             <div class="googleCalendar">
-                            <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showTabs=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=gtcamechurch%40gmail.com&amp;color=%23711616&amp;ctz=America%2FNew_York" width="800" height="600" frameborder="0" scrolling="no"></iframe>                </div>
-                        </div>
-
-                        <div className='col-4'>
-                            {/* News and Events Feed */}
-                            
-                            <div className='floatingWords'>{this.state.news.map((element, index)=> {
-                                return <div key={index} className='newsStatement'>{element}</div>
-                            }
-                            )}
+                                <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showTabs=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=gtcamechurch%40gmail.com&amp;color=%23711616&amp;ctz=America%2FNew_York" width="800" height="600" frameborder="0" scrolling="no"></iframe>                </div>
                             </div>
+
+                            <div className='col-4'>
+                                {/* News and Events Feed */}
+
+                            
+                                <div className='floatingWords'>{this.state.news.map((element, index)=> {
+                                return <div key={index} className='newsStatement'>{element}</div>
+                                    }
+                                )}
+                                </div>
+
+                
+                               
+                               
 
 
 

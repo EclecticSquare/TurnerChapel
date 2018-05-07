@@ -48,10 +48,19 @@ p.tithePara {
 }
 
 
-div.slides.col-10{
+div.slides.col-4{
+    background-color: white;
     height: auto;
     width: auto;
 }
+
+div.slides.col-8 {
+     height: 15vh;
+    width: auto;
+}
+
+
+
 blockquote.blockquote {
     position: absolute;
     margin: auto;
@@ -143,5 +152,11 @@ button.btn.btn-secondary.btn-lg:hover{
     img#tithePlate {
         height: 35vh;
         width:auto;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    blockquote.blockquote {
+       font-size: 20px;
     }
 }

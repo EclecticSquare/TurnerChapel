@@ -77,7 +77,7 @@ class Tithes extends Component {
 
             <div className='container-fluid'>
                 <div className='row'>
-                    <div className=' slides col-8'>
+                    <div className='slides col-8'>
                 {/* giving quotes */}
                         <div id='slideshowContainer'>
                             <div id='slideshow'>
@@ -100,13 +100,11 @@ class Tithes extends Component {
                         </div>
                     </div>
 
-                    <div className='col-4'>
+                    <div className='slides col-4'>
                          {/* Where to tithe */}
                         <a href="https://www.givelify.com"><button type="button" className="btn btn-secondary btn-lg">Give Here</button></a>        
                     </div>
-                
-
-
+  
                 </div>
             </div>
 
