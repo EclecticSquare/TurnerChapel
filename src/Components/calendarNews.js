@@ -21,7 +21,7 @@ class CalendarNews extends Component {
 
         this.state = {
             news: [],
-            news2: []
+           
         }
     };
 
@@ -113,19 +113,6 @@ class CalendarNews extends Component {
                 
                                
                                
-
-
-
-
-
-
-
-
-                                {/* <img className='scrollImage' src={Image10}/>
-                                <img className='scrollImage' src={Image11}/>
-                                <img className='scrollImage' src={Image12}/>
-                                <img className='scrollImage' src={Image13}/>
-                                <img className='scrollImage' src={Image14}/> */}
                             
                         </div>
                  

@@ -1,0 +1,30 @@
+div.pageHolder {
+    background:#321F3F;
+    height: 100vh;
+    width: 100vw;
+}
+ul.nav.nonHome.justify-content-left {
+    background-color:#321F3F;
+  }
+  
+  img.cornerLogo {
+    position: absolute;
+    top:0;
+    right: 0;
+    height: 12vh;
+    width: 20vw;
+    z-index: 75; 
+  }
+
+  h1.display-4.contactTitle {
+      color: antiquewhite;
+      text-align: left;
+      padding-left:  20px;
+      padding-top: 50px;
+  }
+
+  h4.contactTag {
+    color: antiquewhite;
+    text-align: left;
+    padding-left:20px;
+  }

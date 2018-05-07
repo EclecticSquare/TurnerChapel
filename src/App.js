@@ -7,6 +7,7 @@ import CalendarNews from './Components/calendarNews'
 import Tithes from './Components/tithes'
 import {Route} from 'react-router-dom';
 import Slideshow from './Components/slideshow'
+import Contact from './Components/contact'
 
 
 
@@ -22,8 +23,7 @@ class App extends Component {
         <Route exact path="/tithes" component={Tithes}/>
         <Route exact path="/calendar" component={CalendarNews}/>
         <Route exact path="/news" component={CalendarNews}/>
-        {/* <Route exact path="/ministries" component={Ministries}/> */}
-        {/* <Route exact path="/contact" component={Contact}/> */}
+        <Route exact path="/contact" component={Contact}/>
       </div>
     );
   }
