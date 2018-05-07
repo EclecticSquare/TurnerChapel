@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Logo from '../Images/turner_logo.jpg';
 import {Link} from 'react-router-dom'
 import '../css/contact.css'
-
+import FaFacebookOfficial from 'react-icons/lib/fa/facebook-official';
+import FaInstagram from 'react-icons/lib/fa/instagram'
 
 
 class Contact extends Component {
@@ -55,6 +56,10 @@ class Contact extends Component {
                                     Atlanta, GA 30331 <br/>
                                     404.699.0023
                                 </p>
+
+                                <div className='fa'><FaFacebookOfficial/></div>
+                                <div className='fa'><FaInstagram/></div>
+
                             </div>
                     </div>
                 </div>
