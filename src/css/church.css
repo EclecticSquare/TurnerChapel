@@ -3,8 +3,10 @@ div.church {
 }
 
 img.church {
-    width: 45vw;
+    width: 33vw;
+    height: 43;
     margin-right: 1.5vw;
+
 }
 
 a.nav-item.nav-link.list {
@@ -38,27 +40,25 @@ div.holder {
     color: lightgray;
 }
 
-h1.display-3.churchTitle {
+h1.churchTitle {
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     background-color: #301F40;
+    color: antiquewhite;
+    font-size: 4em;
 }
 
 p.paraText {
     font-size: 25px;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    padding: 1vw 5vw 1vw 5vw;
     text-align: justify;
     background-color: #301F40;
     width: 100%;
     color:antiquewhite;
-    margin-bottom: 0;
+    
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     
 }
 
-p.paraText.second {
-    color: pink;
-}
 
 ul.reverend {
     color: antiquewhite;

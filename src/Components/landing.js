@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import '../css/landing.css'
 import ImageA from '../Images/sunsetCross.jpg'
-import ImageB from '../Images/insideChurch.jpg'
+import ImageB from '../Images/insideGTC1.jpg'
 import ImageC from '../Images/turner_logo.jpg'
 import Logo from '../Images/turner_logo.jpg';
 

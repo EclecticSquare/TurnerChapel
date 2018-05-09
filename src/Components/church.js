@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../css/church.css';
 import Logo from '../Images/turner_logo.jpg'
-import ImageV from '../Images/churchExample.jpg'
+import ImageV from '../Images/frontGTC.jpg'
 import {Link} from 'react-router-dom'
 
 
@@ -45,7 +45,7 @@ class Church extends Component {
                 {/* about the church Info */}
 
                 
-                <h1 className='display-3 churchTitle'>History of <span className='churchName'>Greater Turner Chapel A.M.E.</span> Church</h1>
+                <h1 className=' churchTitle'> A History:<br/>Greater Turner Chapel A.M.E.</h1>
                 
                 <img className='church' src={ImageV}/>
 
@@ -138,7 +138,7 @@ class Church extends Component {
                 </div>
 
                
-
+                <p className='paraText'>We have come this far by faith!!! And have made tremendous progress.  Our faith has not shaken as we continue to press toward the mark of the most high calling!!!  Our congregation has endured many hardships, enjoyed many victories, celebrated births and deaths, joined lives together and accepted many into Christian discipleship.  We trust that we shall continue to follow in the footsteps of our forefathers by upholding the A.M.E. church motto:   “God our Father, Christ our Redeemer, and man our brother.”</p>
 
 
 
