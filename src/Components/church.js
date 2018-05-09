@@ -8,9 +8,9 @@ import {Link} from 'react-router-dom'
 class Church extends Component {
     render() {
         return (
-            <div className=''>
+            <div className='church'>
                    {/* navbar */}
-                     {/* navbar */}
+                     
                 <ul className="nav  nonHome justify-content-left">
                     
                     
@@ -45,13 +45,120 @@ class Church extends Component {
                 {/* about the church Info */}
 
                 
-                <h1 className='display-3 churchTitle'>Greater Turner Chapel A.M.E. Church</h1>
+                <h1 className='display-3 churchTitle'>History of <span className='churchName'>Greater Turner Chapel A.M.E.</span> Church</h1>
                 
-                <p className='paraText'><img className='church' src={ImageV}/>Maecenas orci ipsum, sagittis at elit sed, pellentesque ultricies erat. Ut blandit eleifend elit quis elementum. Suspendisse id laoreet tellus. Maecenas enim leo, aliquet nec diam non, posuere pulvinar felis. Integer et diam non dui facilisis finibus nec sit amet tellus. Sed convallis risus nec tortor eleifend lacinia. Phasellus tempor congue dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis vehicula urna, at suscipit nibh. Aenean faucibus, ante nec semper tempus, libero mi tristique augue, ut vulputate elit nibh a est. Nullam quis efficitur mi. <br/>
-                    Integer pharetra justo ante, nec sodales erat dictum et. Fusce vestibulum aliquam libero, eget eleifend arcu tristique efficitur. Nulla justo diam, semper sit amet turpis ac, tempus fermentum metus. Ut non ornare felis. In imperdiet erat urna, a ullamcorper ligula fringilla a. Aliquam erat volutpat. Quisque risus metus, volutpat nec sodales vel, ultricies vitae ligula. Nunc eu metus rutrum, porta mauris ac, dignissim orci. Praesent sed pellentesque nisi. Phasellus viverra gravida mi, sit amet dapibus elit rhoncus vel. Quisque sed viverra justo. Aenean nisl ligula, luctus eleifend laoreet nec, molestie at ipsum. Donec nulla justo, ultrices eget vulputate vel, finibus vel enim. Pellentesque quis magna eu elit lacinia imperdiet.<br/>
-                    Nullam aliquet turpis vitae lectus porttitor congue. Ut ex tellus, imperdiet ac urna eget, ullamcorper semper est. Cras viverra accumsan velit. Morbi feugiat magna ante, nec mollis ipsum porta quis. Pellentesque nec fermentum tellus, sed iaculis est. Praesent odio tellus, rutrum in ornare in, elementum vel nulla. Vivamus suscipit accumsan mattis. Nulla nulla arcu, egestas ac hendrerit id, condimentum feugiat nulla.<br/>
-                    Fusce facilisis arcu urna, sed dignissim ligula rutrum sit amet. Vivamus sagittis magna vitae risus imperdiet aliquam. Sed pretium augue lorem, eget dictum velit finibus aliquet. Proin egestas odio eu massa feugiat, in eleifend metus sollicitudin. Morbi lacinia fringilla elit nec consequat. Sed libero ligula, hendrerit at sagittis rhoncus, volutpat eu arcu. Proin eget orci quis nibh tincidunt pulvinar ut a augue. Nulla sit amet mattis ligula. Aenean fringilla auctor nulla vitae pulvinar. Vivamus dolor turpis, molestie eget diam eu, malesuada pulvinar urna. Pellentesque scelerisque diam a feugiat laoreet. Proin vulputate viverra lacus sit amet viverra. Nunc efficitur mi vitae urna vehicula fermentum. Morbi a diam diam. Vivamus fringilla, ex a convallis porttitor, diam risus egestas odio, vitae maximus nulla tellus at urna. Fusce at tempus enim.<br/>
-                    Vivamus scelerisque laoreet eros, vitae dignissim lectus vehicula id. Sed quis fringilla dolor, ut luctus nibh. Praesent non massa consequat, accumsan tortor sed, lobortis enim. Duis sit amet nunc vitae turpis tincidunt volutpat. Donec sollicitudin rutrum odio sed eleifend. Integer placerat condimentum accumsan. Nunc et maximus ipsum. Praesent tempor vulputate massa, at porttitor dui porta vulputate. Maecenas bibendum luctus quam ut dictum. Suspendisse potenti.</p>
+                <img className='church' src={ImageV}/>
+
+                <p className='paraText'>In 1908 a small group of pioneering Christians, under the leadership of the Rev. Horace Williams,
+                gathered together for the purpose of organizing a church in the Bellwood community. Much of the early
+                history of the church is obscure because of the unavailability of written records.<br/>
+                The efforts of our heroic founders resulted in the formation of Turner Chapel A.M.E. Church on
+                Julian Street. It was named in honor of Bishop Henry McNeal Turner. The young church made steady
+                progress, and we are the benefactors of their dedicated efforts and great sacrifices.<br/>
+                During the early thirties, the church on Julian Street was destroyed by fire. Negotiations were
+                made for property located at 578 Kennedy Street. The membership continued to grow and prosper,
+                meeting the needs of the members and community. The following ministers served as pastors prior to
+                November 1971: 
+                </p>
+
+
+                <div className='list1 container-fluid'>
+                    <div className='reverendList row'>
+                            <div className='reverendList col-4'>
+                                <ul className='reverend'>
+                                    <li>Rev. Alexander </li>
+                                    <li>Rev. R.T Bussey</li>
+                                    <li>Rev. M.C. Davos</li>
+                                    <li>Rev. K.C. Dunlap</li>
+                                    <li>Rev. C.C. Ealey</li>
+                                    <li>Rev. Odum</li>
+                                    <li>Rev. G.A. Roberts</li>
+                                    <li>Rev. L.L. Flewellen</li>
+                                </ul>
+                            </div>
+
+                            <div className='reverendList col-4'>
+                                <ul className='reverend'>
+                                    <li>Rev. Foley</li>
+                                    <li>Rev. P. Fountain</li>
+                                    <li>Rev. J.S. Horton</li>
+                                    <li>Rev. A. Hightower</li>
+                                    <li>Rev. J.W. O'neal</li>
+                                    <li>Rev. Stanford</li>
+                                    <li>Rev. H. William</li>
+                                    <li>Rev. T.T. Ivery</li>
+                                </ul>
+                            </div>
+
+                            <div className='reverendList col-4'>
+                                <ul className='reverend'>
+                                    <li>Rev. Mathis</li>
+                                    <li>Rev. C. May</li>
+                                    <li>Rev. McCain</li>
+                                    <li>Rev. McClendon</li>
+                                    <li>Rev. F.L. Riley</li>
+                                    <li>Rev. E.B. Wright</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+
+
+                <p className='paraText'>The realization of our long time dreams and efforts to construct a new church edifice became a reality!  Through God’s wisdom, Rev. L.W. Hope was assigned to the church in November 1971.  An untiring thrust was placed upon this effort, in 1975 under the leadership of Rev. Hope, Greater Turner Chapel A.M.E. Church relocated to Cascade Road, SW Atlanta.  The following ministers served as pastors since November 1971:</p>
+
+                <div className='list2 container-fluid'>
+                    <div className='reverendList row'>
+                            <div className='reverendList col-4'>
+                                <ul className='reverend'>
+                                    <li>Rev. J. H. Butler </li>
+                                    <li>Rev. R. D. Mizer</li>
+                                    <li>Rev.  E. Lyons</li>
+                                    <li>Rev. L.E. Logan II</li>
+                                </ul>
+                            </div>
+
+                            <div className='reverendList col-4'>
+                                <ul className='reverend'>
+                                    <li>Rev. L.W. Hope</li>
+                                    <li>Rev. B. Jordan</li>
+                                    <li>Rev. A. Wilkes</li>
+                                    <li>Rev. A. Morris</li>
+                                </ul>
+                            </div>
+
+                            <div className='reverendList col-4'>
+                                <ul className='reverend'>
+                                    <li>Rev. G. S. Hardeman</li>
+                                    <li>Rev. T. R. Stegall</li>
+                                    <li>Rev. R. Allen</li>
+                                    <li>Rev. T. Belin-Ingram</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+
+               
+
+
+
+
+
+
+
+        
+
+                    
+
+
+            
+
+                   
+                
+
+
+
+
+
             </div>
                     
         )
