@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import '../css/church.css';
 import Logo from '../Images/turner_logo.jpg'
 import ImageV from '../Images/frontGTC.jpg'
+import ImageJ from '../Images/insideGTC1.jpg'
+import ImageK from '../Images/pulpitGTC.jpg'
 import {Link} from 'react-router-dom'
 
 
@@ -46,9 +48,11 @@ class Church extends Component {
 
                 
                 <h1 className=' churchTitle'> A History:<br/>Greater Turner Chapel A.M.E.</h1>
-                
-                <img className='church' src={ImageV}/>
 
+                <img className='church left' src={ImageK}/>
+                <img className='church' src={ImageV}/>
+                <img className='church right' src={ImageJ}/>
+                
                 <p className='paraText'>In 1908 a small group of pioneering Christians, under the leadership of the Rev. Horace Williams,
                 gathered together for the purpose of organizing a church in the Bellwood community. Much of the early
                 history of the church is obscure because of the unavailability of written records.<br/>
