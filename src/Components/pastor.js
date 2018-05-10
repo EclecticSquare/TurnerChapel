@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import '../css/pastor.css'
 import Logo from '../Images/turner_logo.jpg'
 import {Link} from 'react-router-dom';
-import pastorImage from '../Images/pastorStandin.jpeg'
-import ImageZ from '../Images/pastorExample1.jpeg'
-import ImageW from '../Images/pastorExample2.jpeg'
-import ImageX from '../Images/pastorExample3.jpeg'
-import ImageY from '../Images/pastorExample4.jpeg'
+import pastorImage from '../Images/pastorMain.jpg'
+import ImageZ from '../Images/pastor1.jpeg'
+import ImageW from '../Images/pastor2.jpg'
+import ImageX from '../Images/pastor3.jpg'
+import ImageY from '../Images/pastor4.jpg'
+import ImageT from '../Images/pastor5.jpg'
 class Pastor extends Component {
     render() {
         return(
@@ -64,18 +65,19 @@ class Pastor extends Component {
 
                 <div className="pastor container-fluid">
                     <div className="row">
-                        <div className="col-lg">
-                        <img className='pastorSlideImage' src={ImageW}/>
+                        <div className="col-3">
+                            <img className='pastorSlideImage' src={ImageW}/>
                         </div>
-                        <div className="col-lg">
-                        <img className='pastorSlideImage' src={ImageX}/>
+                        <div className="col-3">
+                            <img className='pastorSlideImage' src={ImageX}/>
                         </div>
-                        <div className="col-lg">
-                        <img className='pastorSlideImage' src={ImageY}/>
+                        <div className="col-3">
+                            <img className='pastorSlideImage' src={ImageY}/>
                         </div>
-                        <div className="col-lg">
-                        <img className='pastorSlideImage' src={ImageZ}/>
+                        <div className="col-3">
+                            <img className='pastorSlideImage' src={ImageZ}/>
                         </div>
+                        
                     </div>
                 </div>
 
